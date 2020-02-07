@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # own
     'cart',
+    'book',
 ]
 
 MIDDLEWARE = [

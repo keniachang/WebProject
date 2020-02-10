@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 class Book(models.Model):
-    title = models.CharField(max_length=100, null=False)
+    title = models.CharField(max_length=255, null=False)
     cover = models.URLField(max_length=300, null=False)
     author = models.CharField(max_length=50, null=False)
     bio = models.TextField(null=True, blank=True)

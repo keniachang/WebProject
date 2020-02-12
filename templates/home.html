@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Hello {{ username }} ,</h1>
+    <p>
+        Welcome to Gsix Digital Bookstore!
+    </p>
+    <a href="{% url 'books' %}">Let's jump into the world of books</a>
+
+{% endblock %}

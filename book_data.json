@@ -1,0 +1,1022 @@
+[
+{
+    "model": "book.book",
+    "pk": 1,
+    "fields": {
+        "title": "Murder on the Orient Express",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51%2B2QZIRWfL._SX308_BO1,204,203,200_.jpg",
+        "author": "Agatha Christie",
+        "bio": "The Queen of Mystery has come to Harper Collins! Agatha Christie, the acknowledged mistress of suspense\u2014creator of indomitable sleuth Miss Marple, meticulous Belgian detective Hercule Poirot, and so many other unforgettable characters\u2014brings her entire oeuvre of ingenious whodunits, locked room mysteries, and perplexing puzzles to Harper Paperbacks\u2026including Murder on the Orient Express, the most famous Hercule Poirot mystery, which has the brilliant detective hunting for a killer aboard one of the world\u2019s most luxurious passenger trains.",
+        "description": "After taking the Taurus Express from Aleppo in Syria to Istanbul, private detective Hercule Poirot arrives at the Tokatlian Hotel. There he receives a telegram prompting him to return to London. He instructs the concierge to book him a first-class compartment on the Simplon-route Orient Express service leaving that night. Although the train is fully booked, Poirot obtains a second-class berth, but only with the intervention of a friend and fellow Belgian who is also boarding the train, Monsieur Bouc, a director of the railway, Compagnie Internationale des Wagons-Lits.\r\n\r\nA brash and vulgar American businessman named Ratchett is aboard the train with his personal secretary and translator, Hector McQueen. Once Poirot is recognised as the famous detective, Ratchett approaches him and asks if he will act as his protector as Ratchett has been receiving death threats. Poirot, repulsed by Mr. Ratchett, refuses the case. M Bouc has taken the last first-class cabin, but arranges to be moved to a separate coach and gives Poirot his space in first class. The first night Poirot sleeps in first class, he observes some strange occurrences. Early in the morning, Poirot is wakened by a cry from Ratchett's compartment next to him. The Wagons-Lits conductor knocks on Ratchett's door and a voice from inside responds, \"Ce n'est rien. Je me suis tromp\u00e9\" (It is nothing. I am mistaken). Poirot has difficulty sleeping because there is a peculiar silence on the train. Mrs Hubbard rings her bell and tells the conductor a man is in her room. Poirot rings his bell for water and is informed by the conductor that the train is stuck in a snowbank. Poirot hears a loud thump next door.\r\n\r\nThe next morning, the train still stopped, M Bouc informs Poirot that Ratchett has been murdered and the murderer is still aboard the train. Poirot tells M Bouc he will investigate the case. Poirot first examines Ratchett's body and compartment. Ratchett has 12 stab wounds. The window had been left open in Ratchett's compartment, presumably to make the investigators think the murderer escaped out the window, but there are no footprints outside the window in the snow. A handkerchief with the initial 'H' is found in the compartment, a pipe cleaner, a round match different from the matches Ratchett used and a charred piece of paper with the name 'Armstrong' on it.\r\n\r\nThis piece of paper helps Poirot to work out who Ratchett really is and why someone would want to murder him. A few years earlier, a man named Cassetti kidnapped a three-year-old, Daisy Armstrong. Cassetti collected a ransom from the wealthy Armstrong family, but killed the child within two hours of kidnapping her. Poirot concludes that 'Ratchett' was actually Cassetti. The voice in Ratchett's compartment could not have been the American's, since Ratchett/Cassetti spoke no French.\r\n\r\nThe interviews start with the Wagons-Lits conductor, then Hector McQueen. Poirot knows that McQueen is involved with the case because he knows about the Armstrong note found in Ratchett's compartment. Hector is surprised that Poirot found the note because he thought it had been destroyed. Poirot then interviews Masterman and then Mrs Hubbard, who claims that the murderer was in her cabin. All of the passengers give Poirot suitable alibis during their interviews, although a few suspicious elements are brought to light: many passengers observed a woman in a red kimono walking down the hallway on the night of the murder, but no one admits they have a red kimono. Mrs Hubbard tells Poirot she had Greta Ohlsson lock the communicating door between her compartment and Ratchett's. Hildegarde Schmidt bumped into a stranger wearing a Wagons-Lits uniform blazer.\r\n\r\nPoirot checks every passenger's luggage. During the check he is surprised by several things: the label on Countess Andrenyi's luggage is wet, a Wagons-Lits uniform is found in Hildegarde Schmidt's bag and the red kimono is found in Poirot's own luggage.\r\n\r\nAfter the luggage check, Poirot, Dr Constantine and M Bouc review the facts of the case and develop a list of questions. With the evidence and questions in mind, Poirot sits and thinks about the case. When he surfaces from a trance-like state, Poirot has realised the solution to the case. He calls in several people and reveals their true identities. All of them were connected with the Armstrong tragedy in some way. Poirot discovers Countess Andrenyi is Helena Goldenberg, aunt of Daisy Armstrong. She smudged her luggage label and obscured her name, in an effort to conceal her identity. Mary Debenham was Daisy's governess; Antonio Foscanelli was the Armstrongs' chauffeur; Masterman was Col Armstrong's valet; and Greta Ohlsson was Daisy Armstrong's nurse. Princess Dragomiroff, revealed to be Sonia Armstrong's godmother, claims the monogrammed handkerchief found in Ratchett's compartment.\r\n\r\nPoirot gathers all of the passengers into the dining car and propounds two possible solutions. The first solution is that a stranger entered the train when it stopped at Vinkovci, killed Ratchett and disembarked from the train. The second solution is that the passengers aboard the Orient Express participated in stabbing Cassetti/Ratchett to death. Poirot suggests that 12 of the 13 passengers, all close to the Armstrong case, killed Ratchett to avenge the murder of Daisy Armstrong. Mrs Hubbard, revealed as the famous actress Linda Arden, admits that the second solution is correct.\r\n\r\nPoirot suggests that M Bouc and Dr Constantine tell the police that the first solution is correct to protect the family. M Bouc and Dr Constantine accept Poirot's suggestion.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Collins Crime Club",
+        "release_date": "1/1/1934",
+        "rating": null,
+        "comments": "",
+        "price": "6.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 2,
+    "fields": {
+        "title": "The Big Sleep",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/RaymondChandler_TheBigSleep.jpg/220px-RaymondChandler_TheBigSleep.jpg",
+        "author": "Raymond Chandler",
+        "bio": "Raymond Thornton Chandler (July 23, 1888 \u2013 March 26, 1959) was an American-British novelist and screenwriter. In 1932, at the age of forty-four, Chandler became a detective fiction writer after losing his job as an oil company executive during the Great Depression. His first short story, \"Blackmailers Don't Shoot\", was published in 1933 in Black Mask, a popular pulp magazine. His first novel, The Big Sleep, was published in 1939. In addition to his short stories, Chandler published seven novels during his lifetime (an eighth, in progress at the time of his death, was completed by Robert B. Parker). All but Playback have been made into motion pictures, some more than once. In the year before his death, he was elected president of the Mystery Writers of America.\r\n\r\nChandler had an immense stylistic influence on American popular literature. He is considered to be a founder of the hard-boiled school of detective fiction, along with Dashiell Hammett, James M. Cain and other Black Mask writers. The protagonist of his novels, Philip Marlowe, like Hammett's Sam Spade, is considered by some to be synonymous with \"private detective\". Both were played in films by Humphrey Bogart, whom many consider to be the quintessential Marlowe.",
+        "description": "In Raymond Chandler's The Big Sleep, private investigator Philip Marlowe goes to the wealthy General Sternwood's home on a job. Sternwood is being blackmailed by the local bookseller, Arthur Geiger, because of his partying daughter Carmen, and Sternwood wants Marlowe to make the problem go away. Sternwood also mentions that his older daughter, Vivian, has a husband named Rusty Regan, who has disappeared.\r\n\r\nWhen Marlowe visits Geiger's bookstore, he quickly figures out that it's a front for a pornography racket. He goes to Geiger's house, only to find Geiger shot dead and a half-naked Carmen too drugged to know up from down. The next day, Sternwood's chauffeur, Owen Taylor, turns up dead.\r\n\r\nVivian visits Marlowe and tells him that her family is now being blackmailed over pornographic photos of Carmen. Marlowe traces Geiger's pornographic collection and Carmen's naked photos to a man named Joe Brody. While he's confronting Brody and Brody's girlfriend, Agnes, Carmen bursts in with a gun. Marlowe disarms her.\r\n\r\nMarlowe gets the photos from Brody and continues to question him. It comes out that the chauffeur killed Geiger over Carmen's nude photos. Brody admits that he attacked the chauffeur and took the photos of Carmen, but he denies murdering anyone. Geiger's lover, a man named Carol Lundgren, suddenly shows up and shoots Brody, mistakenly thinking that Brody was Geiger's murderer.\r\n\r\nWith the photos of Carmen recovered, Marlowe's job for General Sternwood is finished. But Marlowe is still bugged by the disappearance of Rusty Regan. There's a rumor that Regan ran off with Mona Mars, the wife of gambling kingpin Eddie Mars, but Marlowe doesn't buy it. That night, Carmen shows up at his apartment and tries to seduce him. He throws her out.\r\n\r\nWith Brody dead, Agnes gets a new partner named Harry Jones, who offers to sell Marlowe the name of the place where Mona Mars is hiding. Eddie Mars' hired gunman Canino kills Jones, but Marlowe manages to get the information from Agnes anyway. When Marlowe checks out the place - an auto repair shop - he gets jumped and knocked out. He awakens to find himself tied up. Mona Mars is there. She tells him that she didn't run off with Regan and is only hiding to help her husband. Then she unties Marlowe and helps him escape. During the escape, Marlowe kills Canino.\r\n\r\nMarlowe visits General Sternwood the next day. He gives Carmen back her gun, and she tries to shoot him for turning down her advances. He disarms her and confirms that Carmen is the one who killed Regan after he also refused to sleep with her. Eddie Mars and Vivian had tried to protect Carmen by hiding the body and making up the rumor that Regan ran off with Mona Mars. Vivian promises Marlowe that Carmen will be sent to get proper help.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Alfred A. Knopf",
+        "release_date": "1/1/1939",
+        "rating": null,
+        "comments": "",
+        "price": "10.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 3,
+    "fields": {
+        "title": "The Hound of the Baskervilles",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Cover_%28Hound_of_Baskervilles%2C_1902%29.jpg/200px-Cover_%28Hound_of_Baskervilles%2C_1902%29.jpg",
+        "author": "Arthur Conan Doyle",
+        "bio": "Sir Arthur Ignatius Conan Doyle KStJ DL (22 May 1859 \u2013 7 July 1930) was a British writer, who created the character Sherlock Holmes. Originally a physician, in 1887 he published A Study in Scarlet, the first of four novels and more than fifty short stories about Holmes and Dr. Watson. The Sherlock Holmes stories are generally considered milestones in the field of crime fiction.\r\n\r\nDoyle was a prolific writer; other than Holmes stories, his works include fantasy and science fiction stories about Professor Challenger and humorous stories about the Napoleonic soldier Brigadier Gerard, as well as plays, romances, poetry, non-fiction and historical novels. One of Doyle's early short stories, \"J. Habakuk Jephson's Statement\", helped to popularise the mystery of the Mary Celeste.",
+        "description": "The Hound of the Baskervilles is the third of the crime novels written by Sir Arthur Conan Doyle featuring the detective Sherlock Holmes. Originally serialized in The Strand Magazine from August 1901 to April 1902, it is set largely on Dartmoor in Devon in England's West Country and tells the story of an attempted murder inspired by the legend of a fearsome, diabolical hound of supernatural origin. Sherlock Holmes and his companion Dr. Watson investigate the case. This was the first appearance of Holmes since his intended death in \"The Final Problem\", and the success of The Hound of the Baskervilles led to the character's eventual revival.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "The Strand",
+        "release_date": "8/1/1902",
+        "rating": null,
+        "comments": "",
+        "price": "4.64"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 4,
+    "fields": {
+        "title": "The Postman always Rings Twice",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Cain_The_Postman_Always_Rings_Twice.jpg/220px-Cain_The_Postman_Always_Rings_Twice.jpg",
+        "author": "James M. Cain",
+        "bio": "James M. Cain was born in Annapolis, Maryland, in 1892. Having served in the US Army in World War 1, he became a journalist in Baltimore and New York in the 1920s. He later worked as a screenwriter in Hollywood. Cain died in 1977.",
+        "description": "The story is narrated in the first person by Frank Chambers, a young drifter who stops at a rural California diner for a meal and ends up working there. The diner is operated by a beautiful young woman, Cora, and her much older husband, Nick Papadakis, sometimes called \"the Greek\".\r\n\r\nFrank and Cora feel an immediate attraction to each other and begin a passionate affair with sadomasochistic qualities (when they first embrace, Cora commands Frank to bite her lip, and Frank does so hard enough to draw blood).\r\n\r\nCora is tired of her situation, married to a man she does not love and working at a diner that she wants to own and improve. Frank and Cora scheme to murder the Greek in order to start a new life together without Cora losing the diner.\r\n\r\nThey plan on striking Nick's head and making it seem he fell and drowned in the bathtub. Cora fells Nick with a solid blow, but a sudden power outage and the appearance of a policeman make the scheme fail. Nick recovers and because of retrograde amnesia does not suspect that he narrowly avoided being killed.\r\n\r\nDetermined to kill Nick, Frank and Cora fake a car accident. They ply Nick with wine, strike him on the head, and crash the car. Frank and Cora are injured. The local prosecutor suspects what has actually occurred but does not have enough evidence to prove it. As a tactic intended to get Cora and Frank to turn on each other, he charges only Cora with the crime of Nick's murder, coercing Frank to sign a complaint against her.\r\n\r\nCora, furious and indignant, insists on offering a full confession detailing both their roles. Her lawyer tricks her into dictating that confession to a member of his own staff. Cora, believing her confession made, returns to prison. Though Cora would be sure to learn of the trickery, a few valuable hours are gained. The lawyer uses the time to manipulate those financially interested in the trial to have their private detective recant his testimony, which was the final remaining weapon in the prosecution's arsenal. The state is forced to grant Cora a plea agreement under which she is given a suspended sentence and no jail time.\r\n\r\nFrank and Cora patch things up and plan a happy future and a family. Then Cora is killed in a car crash while Frank is driving. The book ends with Frank, from death row, summarizing the events that followed, explaining that he was wrongly convicted of having murdered Cora. The text, he hopes, will be published after his execution.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Vintage Books",
+        "release_date": "1/1/1934",
+        "rating": null,
+        "comments": "",
+        "price": "15.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 5,
+    "fields": {
+        "title": "The Maltese Falcon",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/The_Maltese_Falcon_%281st_ed_cover%29.jpg/220px-The_Maltese_Falcon_%281st_ed_cover%29.jpg",
+        "author": "Dashiell Hammett",
+        "bio": "Although Hammett himself worked for a time as a private detective for the Pinkerton Detective Agency in San Francisco (and used his given name, Samuel, for the story's protagonist), Hammett asserted that \"Spade has no original. He is a dream man in the sense that he is what most of the private detectives I worked with would like to have been, and, in their cockier moments, thought they approached.\"[1]\r\n\r\nHammett reportedly drew upon his years as a detective in creating many of the other characters for The Maltese Falcon, which reworks elements from some of his stories published in Black Mask magazine in 1925, \"The Whosis Kid\" and \"The Gutting of Couffignal\". The mysterious stranger collapsing on the detective's doorstep and the valuable package from the far East seem to have come from the 1926 story the Creeping Siamese. The whole story of the package and some Siamese thugs was cooked up as an alibi by the murderer and her husband, who owned a Cinema. \"If this is nonsense, what do you make of that yarn you told us about creeping Siamese and mysterious bundles . . . Don't be too hard on him, I told O'Gar. Being around movies all the time has poisoned his idea about what sounds plausible\" The novel was serialized in five parts in Black Mask in 1929 and 1930 before being published in book form in 1930 by Alfred A. Knopf.",
+        "description": "In this noir classic, detective Sam Spade (Humphrey Bogart) gets more than he bargained for when he takes a case brought to him by a beautiful but secretive woman (Mary Astor). As soon as Miss Wonderly shows up, trouble follows as Sam's partner is murdered and Sam is accosted by a man (Peter Lorre) demanding he locate a valuable statuette. Sam, entangled in a dangerous web of crime and intrigue, soon realizes he must find the one thing they all seem to want: the bejeweled Maltese falcon.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Alfred A. Knopf",
+        "release_date": "1/1/1930",
+        "rating": null,
+        "comments": "",
+        "price": "8.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 6,
+    "fields": {
+        "title": "The Alienist",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/5170sYw90rL._SX323_BO1,204,203,200_.jpg",
+        "author": "Caleb Carr",
+        "bio": "Caleb Carr is the critically acclaimed author of The Alienist, The Angel of Darkness, The Lessons of Terror, Killing Time, The Devil Soldier, The Italian Secretary, The Legend of Broken, and Surrender, New York. He has taught military history at Bard College, and worked extensively in film, television, and the theater. His military and political writings have appeared in numerous magazines and periodicals, among them The Washington Post, The New York Times, andThe Wall Street Journal. He lives in upstate New York.",
+        "description": "The Alienist is a crime novel by Caleb Carr first published in 1994 and is the first book in the Kreizler series. It takes place in New York City in 1896, and includes appearances by many famous figures of New York society in that era, including Theodore Roosevelt and J. P. Morgan.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Random House",
+        "release_date": "3/14/1994",
+        "rating": null,
+        "comments": "",
+        "price": "10.81"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 7,
+    "fields": {
+        "title": "The Girl with the Dragon Tattoo",
+        "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327868566l/2429135.jpg",
+        "author": "Stieg Larsson",
+        "bio": "Larsson spoke of an incident which he said occurred when he was 15: he stood by as three men gang raped an acquaintance of his named Lisbeth. Days later, racked with guilt for having done nothing to help her, he begged her forgiveness\u2014which she refused to grant. The incident, he said, haunted him for years afterward and in part inspired him to create a character named Lisbeth who was also a rape survivor. The veracity of this story has been questioned since Larsson's death, after a colleague from Expo magazine reported to Rolling Stone that Larsson had told him he had heard the story secondhand and retold it as his own. The murder of Catrine da Costa was also an inspiration when he wrote the book.\r\n\r\nWith the exception of the fictional Hedestad, the novel takes place in actual Swedish towns. The magazine Millennium in the books has characteristics similar to that of Larsson's magazine, Expo, such as its socio-political leanings and its financial difficulties.\r\n\r\nBoth Larsson's longtime partner Eva Gabrielsson and English translator Steven T. Murray have said that Christopher MacLehose (who works for British publisher Quercus) \"needlessly prettified\" the English translation; as such, Murray requested he be credited under the pseudonym \"Reg Keeland\". The English release also changed the title, even though Larsson specifically refused to allow the Swedish publisher to do so, and the size of Salander's dragon tattoo; from a large piece covering her entire back, to a small shoulder tattoo.",
+        "description": "In December 2002, Mikael Blomkvist, publisher of the Swedish political magazine Millennium, loses a libel case involving allegations about billionaire industrialist Hans-Erik Wennerstr\u00f6m. Blomkvist is sentenced to three months (deferred) in prison, and ordered to pay hefty damages and costs. Soon afterwards, he is invited to meet Henrik Vanger, the retired CEO of the Vanger Corporation, unaware that Vanger has checked into his personal and professional history; the investigation of Blomkvist's circumstances has been carried out by Lisbeth Salander, a brilliant but deeply troubled researcher and computer hacker.\r\n\r\nVanger promises to provide Blomkvist with evidence against Wennerstr\u00f6m in return for discovering what happened to Vanger's grandniece, Harriet, who disappeared in 1966 during a family gathering at the Vanger estate on Hedeby Island the same day that a traffic accident on a bridge temporarily cut off the island from the mainland. Blomkvist stays on the island while researching the Vanger family history and Harriet's disappearance. He meets several members of the Vanger clan, including Harriet's brother, Martin, current CEO of the company; Isabella, Martin and Harriet's mother; and Cecilia, a headmistress who was Harriet's younger aunt and friend, who seduces Blomkvist later in the novel.\r\n\r\nMeanwhile, Salander's state-appointed legal guardian Holger Palmgren suffers a stroke. He is replaced by Nils Bjurman, who extorts sexual acts from Salander and eventually rapes her. After secretly recording her assault, Salander takes her revenge, torturing Bjurman and threatening to ruin him unless he gives her full control over her life and finances. She then uses a tattoo machine to brand him as a rapist.\r\n\r\nOn Hedeby Island, Blomkvist pursues new evidence in Harriet's disappearance, including photographs showing Harriet's discomfort at seeing an unidentified young man. He also discovers a set of names and numbers believed to be old telephone numbers in Harriet's journal; however, his daughter Pernilla identifies them as quotes from the Book of Leviticus, which describe rules about violent punishment of women. Blomkvist correlates one of them with the grotesque murder of a Vanger Corporation secretary in 1949, and realizes that he may be on the trail of an old serial killer. Vanger's lawyer suggests Salander as a research assistant.\r\n\r\nBlomkvist realises that Salander hacked into his computer for the initial report, and confronts her to ask her for help with the investigation, to which she agrees. The two eventually become casual lovers. Meanwhile, Salander uncovers the remaining four murders corresponding to the Bible quotes in Harriet's journal, as well as several more that fit the profile. However, they realize this is more than just an old cold case when a local cat is left dismembered on their porch, and Blomkvist is shot at from a distance during an afternoon jog.\r\n\r\nConvinced that there must be a connection between the murders and the Vanger family, Salander searches through the Vanger Corporation archives. She notices that most of the murders occurred in locations where the corporation did business. She begins to suspect that the murderer was Gottfried Vanger, Martin and Harriet's deceased father, but she finds out that he died prior to the last murder.\r\n\r\nWhile Salander continues to hunt through the archives, Blomkvist manages to identify the young man in the photograph: Harriet's brother Martin. However, before he can do anything, Martin takes Blomkvist prisoner, revealing that Gottfried \"initiated\" him into the ritual rape and murder of women before his own death, and implies that Gottfried sexually abused both him and Harriet. Martin admits to murdering dozens of women but denies killing his sister. He attempts to kill Blomkvist, but Salander \u2014 who had made the connection with Martin independently \u2014 arrives and attacks Martin. Martin flees by car, pursued by Salander, and commits suicide by purposely colliding with an oncoming truck.\r\n\r\nBelieving that Cecilia's sister Anita, who now lives in London, is the only relative who might know something about Harriet's fate, Blomkvist and Salander tap her phone and learn that Harriet is still alive and living under Anita's name in Australia. When Blomkvist flies there to meet her, Harriet tells him the truth about her disappearance: her father Gottfried had repeatedly raped her, until she killed him in self-defense. That did not solve the problem however, as Martin took his father's role and continued to rape her. Harriet found some peace when Martin was sent away to preparatory school, but he returned the day of her disappearance. Harriet realized she would never be free of him unless she ran away, so she found a place to hide during the traffic accident, and Anita smuggled her to the mainland the next morning. Blomkvist persuades Harriet to return to Sweden, where she reunites with Henrik. Blomkvist then accompanies Salander to her mother's funeral.\r\n\r\nBack in Sweden, Blomkvist learns that the evidence against Wennerstr\u00f6m that Vanger promised him is useless. However, Salander hacked Wennerstr\u00f6m's computer and discovered that his crimes went far beyond what Blomkvist documented. Using her evidence, Blomkvist prints an expos\u00e9 and a book which ruin Wennerstr\u00f6m and catapult Millennium to national prominence. Salander, using her hacking skills, succeeds in stealing some 2.6 billion kr (about $260 million USD) from Wennerstr\u00f6m's secret bank account. Blomkvist and Salander spend Christmas together in his holiday retreat. Shortly after, she goes to Blomkvist's home, intending to declare her love for him and give him a Christmas present, but when she sees him with his long-time lover and business partner Erika Berger, she throws the present in a dumpster and leaves.\r\n\r\nAs a postscript, Salander continues to monitor Wennerstr\u00f6m and after six months, anonymously informs a lawyer in Miami of his whereabouts. Four days later the body of Wennerstr\u00f6m is found in Marbella, Spain, shot three times in the head.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Norstedts f\u00f6rlag",
+        "release_date": "8/1/2005",
+        "rating": null,
+        "comments": "",
+        "price": "3.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 8,
+    "fields": {
+        "title": "The Da Vinci Code",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/DaVinciCode.jpg/220px-DaVinciCode.jpg",
+        "author": "Dan Brown",
+        "bio": "Dan Brown, (born June 22, 1964, Exeter, New Hampshire, U.S.), American author who wrote well-researched novels that centered on secret organizations and had intricate plots. He was best known for the Robert Langdon series, which notably included The Da Vinci Code (2003).",
+        "description": "A murder in Paris' Louvre Museum and cryptic clues in some of Leonardo da Vinci's most famous paintings lead to the discovery of a religious mystery. For 2,000 years a secret society closely guards information that -- should it come to light -- could rock the very foundations of Christianity.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Random House",
+        "release_date": "4/1/2003",
+        "rating": null,
+        "comments": "",
+        "price": "10.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 9,
+    "fields": {
+        "title": "Naked Heat",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51hSU-6D2BL._SY498_BO1,204,203,200_.jpg",
+        "author": "Richard Castle",
+        "bio": "Richard Castle is the author of numerous bestsellers, including the critically acclaimed Derrick Storm series. His first novel, In a Hail of Bullets, published while he was still in college, received the Nom DePlume Society's prestigious Tom Straw Award for Mystery Literature. Castle currently lives in Manhattan with his daughter and mother, both of whom infuse his life with humor and inspiration.",
+        "description": "When New York\u2019s most vicious gossip columnist, Cassidy Towne, is found dead, Heat uncovers a gallery of high-profile suspects, all with compelling motives for killing the most feared muckraker in Manhattan. But Heat\u2019s murder investigation is complicated by her surprise reunion with superstar magazine journalist Jameson Rook. In the wake of their recent breakup, Nikki would rather not deal with their raw emotional baggage. But the handsome, wise-cracking writer\u2019s personal involvement in the case forces her to team up with Rook anyway. The residue of their unresolved romantic conflict and crackling sexual tension fills the air as Heat and Rook embark on the search for a killer among celebrities and mobsters, singers and hookers, pro athletes and shamed politicians. This new, explosive case brings on the heat in the glittery world of secrets, cover-ups, and scandals.",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Hyperion",
+        "release_date": "9/29/2009",
+        "rating": null,
+        "comments": "",
+        "price": "15.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 10,
+    "fields": {
+        "title": "Deja Dead",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51T-kRwUdKL._SX274_BO1,204,203,200_.jpg",
+        "author": "Kathy Reichs",
+        "bio": "Kathy Reichs's first novel D\u00e9j\u00e0 Dead catapulted her to fame when it became a New York Times bestseller and won the 1997 Ellis Award for Best First Novel. Her other Temperance Brennan novels include Death du Jour, Deadly D\u00e9cisions, Fatal Voyage, Grave Secrets, Bare Bones, Monday Mourning, Cross Bones, Break No Bones, Bones to Ashes, Devil Bones, 206 Bones, Spider Bones, Flash and Bones, Bones Are Forever, Bones of the Lost, Bones Never Lie, Speaking in Bones and the Temperance Brennan short story collection, The Bone Collection. In addition, Kathy co-authors the Virals young adult series with her son, Brendan Reichs. The best-selling titles are: Virals, Seizure, Code, Exposure, and Terminal along with two Virals e-novellas, Shift and Swipe. These books follow the adventures of Temperance Brennan's great niece, Tory Brennan. Dr. Reichs is also a producer of the hit Fox TV series, Bones, which is based on her work and her novels.",
+        "description": "Her life is devoted to justice\u2014even for those she never knew.\r\n\r\nIn the year since Temperance Brennan left behind a shaky marriage in North Carolina, work has often preempted her weekend plans to explore Quebec. When a female corpse is discovered meticulously dismembered and stashed in trash bags, Temperance detects an alarming pattern\u2014and she plunges into a harrowing search for a killer. But her investigation is about to place those closest to her\u2014her best friend and her own daughter\u2014in mortal danger\u2026",
+        "genre": "Mystery, Thriller & Suspense",
+        "publisher": "Heinemann",
+        "release_date": "9/1/1997",
+        "rating": null,
+        "comments": "",
+        "price": "9.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 11,
+    "fields": {
+        "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (2nd edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51aqYc1QyrL._SX379_BO1,204,203,200_.jpg",
+        "author": "Aur\u00e9lien G\u00e9ron",
+        "bio": "Aur\u00e9lien G\u00e9ron is a machine learning consultant and trainer. A former Googler, he led YouTube's video classification team from 2013 to 2016. He was also a founder and CTO of Wifirst (a leading Wireless ISP in France) from 2002 to 2012, and a founder and CTO of two consulting firms -- Polyconseil (telecom, media and strategy) and Kiwisoft (machine learning and data privacy).",
+        "description": "Through a series of recent breakthroughs, deep learning has boosted the entire field of machine learning. Now, even programmers who know close to nothing about this technology can use simple, efficient tools to implement programs capable of learning from data. This practical book shows you how.",
+        "genre": "Computers & Technology",
+        "publisher": "O'Reilly Media",
+        "release_date": "October 15, 2019",
+        "rating": null,
+        "comments": "",
+        "price": "37.49"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 12,
+    "fields": {
+        "title": "Starting Out with Python (4th Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41QomZI0DSL._SX399_BO1,204,203,200_.jpg",
+        "author": "Tony Gaddis",
+        "bio": "Tony Gaddis\u00a0is the principal author of the\u00a0Starting Out With\u00a0series of textbooks. Tony has nearly two decades of experience teaching computer science courses, primarily at Haywood Community College. He is a highly acclaimed instructor who was previously selected as the North Carolina Community College \u201cTeacher of the Year\u201d and has received the Teaching Excellence award from the National Institute for Staff and Organizational Development.",
+        "description": "Starting Out with Python\u00a0discusses control structures, functions, arrays, and pointers before objects and classes. As with all Gaddis texts, clear and easy-to-read code listings, concise and practical real-world examples, focused explanations, and an abundance of exercises appear in every chapter. Updates to the 4th Edition include revised, improved problems throughout, and new Turtle Graphics sections that provide flexibility as assignable, optional material.",
+        "genre": "Computers & Technology",
+        "publisher": "Pearson",
+        "release_date": "March 16, 2017",
+        "rating": null,
+        "comments": "",
+        "price": "35.94"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 13,
+    "fields": {
+        "title": "Beginning C++ Game Programming: Learn to program with C++ by building fun games (2nd Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51PXsox0WbL._SX404_BO1,204,203,200_.jpg",
+        "author": "John Horton",
+        "bio": "John Horton\u00a0is a programming and gaming enthusiast based in the UK. He has a passion for writing apps, games, books, and blog articles. He is the founder of Game Code School.",
+        "description": "Learn game development and C++ with a fun, example-driven approach.",
+        "genre": "Computers & Technology",
+        "publisher": "Packt Publishing",
+        "release_date": "October 31, 2019",
+        "rating": null,
+        "comments": "",
+        "price": "28.79"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 14,
+    "fields": {
+        "title": "Beginning C++ Through Game Programming (4th Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41dScMFoSbL._SX403_BO1,204,203,200_.jpg",
+        "author": "Michael Dawson",
+        "bio": "Michael Dawson has worked as both a programmer and a computer game designer and producer. In addition to real-world game industry experience, Dawson earned his bachelor's degree in Computer Science from the University of Southern California. He currently teaches game programming and design to students of all ages through UCLA Extension courses and private lessons. Visit his Web site at www.programgames.com to learn more or to get support for any of his books.",
+        "description": "When it comes to game programming, C++ is the name of the game. If you aspire to move from game player to game creator, it all starts with learning the fundamentals of C++ and game-programming basics. With BEGINNING C++ THROUGH GAME PROGRAMMING, FOURTH EDITION, you will find an up-to-date and thorough introduction to everything you need to get started--with no previous programming experience required. In the new fourth edition of this popular guide to learning C++, you will work with a complete program while learning each new concept and a game program at the end of each chapter. A final game project at the end of the book draws together everything you've learned. Written with the beginning programmer in mind, BEGINNING C++ THROUGH GAME PROGRAMMING, FOURTH EDITION is a great way to get started in game programming.",
+        "genre": "Computers & Technology",
+        "publisher": "Cengage Learning PTR",
+        "release_date": "June 23, 2014",
+        "rating": null,
+        "comments": "",
+        "price": "27.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 15,
+    "fields": {
+        "title": "Data Science from Scratch: First Principles with Python (2nd Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51XwoyG7MrL._SX379_BO1,204,203,200_.jpg",
+        "author": "Joel Grus",
+        "bio": "Joel Grus is a research engineer at the Allen Institute for Artificial Intelligence. Previously he worked as a software engineer at Google and a data scientist at several startups. He lives in Seattle, where he regularly attends data science happy hours.",
+        "description": "If you have an aptitude for mathematics and some programming skills, author Joel Grus will help you get comfortable with the math and statistics at the core of data science, and with the hacking skills you need to get started as a data scientist. Packed with new material on deep learning, statistics, and natural language processing, this updated book shows you how to find the gems in today\u2019s messy glut of data.",
+        "genre": "Computers & Technology",
+        "publisher": "O'Reilly Media",
+        "release_date": "May 16, 2019",
+        "rating": null,
+        "comments": "",
+        "price": "25.17"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 16,
+    "fields": {
+        "title": "Game Programming Patterns (1st Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51Pes1Vls5L._SX404_BO1,204,203,200_.jpg",
+        "author": "Robert Nystrom",
+        "bio": "Robert Nystrom has programmed professionally for twenty years, about half of which is in games. During his eight years at Electronic Arts, he worked on behemoths like Madden and smaller titles like Henry Hatsworth in the Puzzling Adventure. He's shipped games on the PC, GameCube, PS2, XBox, X360, and DS, but is most proud of the tools and shared libraries he created for others to build on. He loves seeing usable, beautiful code magnify the creative ability of others.",
+        "description": "The biggest challenge facing many game programmers is completing their game. Most game projects fizzle out, overwhelmed by the complexity of their own code. Game Programming Patterns tackles that exact problem. Based on years of experience in shipped AAA titles, this book collects proven patterns to untangle and optimize your game, organized as independent recipes so you can pick just the patterns you need.",
+        "genre": "Computers & Technology",
+        "publisher": "Genever Benning",
+        "release_date": "November 2, 2014",
+        "rating": null,
+        "comments": "",
+        "price": "24.95"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 17,
+    "fields": {
+        "title": "CompTIA Security+ Get Certified Get Ahead: SY0-501 Study Guide (4th Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51MZNH9iP7L._SX348_BO1,204,203,200_.jpg",
+        "author": "Darril Gibson",
+        "bio": "An accomplished author and professional trainer, Darril Gibson has authored or coauthored more than 40 books. He is the CEO of YCDA, LLC (short for You Can Do Anything) and he regularly writes, consults, and teaches on a wide variety of technical and security topics. Darril holds many current certifications including CompTIA A+, Network+, Security+, and CASP; (ISC)2 SSCP and CISSP; CyberSec First Responder; and ITIL Foundations.",
+        "description": "The CompTIA Security+ Get Certified Get Ahead SY0-501 Study Guide is an update to the top-selling SY0-201, SY0-301, and SY0-401 study guides, which have helped thousands of readers pass the exam the first time they took it. It covers all of the SY0-501 objectives and includes the same elements readers raved about in the previous two versions. Each of the eleven chapters presents topics in an easy to understand manner and includes real-world examples of security principles in action. The author uses many of the same analogies and explanations he\u2019s honed in the classroom that have helped hundreds of students master the Security+ content.",
+        "genre": "Computers & Technology",
+        "publisher": "YCDA, LLC",
+        "release_date": "October 12, 2017",
+        "rating": null,
+        "comments": "",
+        "price": "9.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 18,
+    "fields": {
+        "title": "Learning Web Design: A Beginner's Guide to HTML, CSS, JavaScript, and Web Graphics (5th Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51iVcZUGuoL._SX408_BO1,204,203,200_.jpg",
+        "author": "Jennifer Robbins",
+        "bio": "Jennifer Niederst Robbins was one of the first designers for the Web. As the designer of O'Reilly's Global Network Navigator (GNN), the first commercial web site, she has been designing for the Web since 1993. She is the author of the bestselling \"Web Design in a Nutshell\" (O'Reilly), and has taught web design at the Massachusetts College of Art in Boston and Johnson and Wales University in Providence. She has spoken at major design and Internet events including SXSW Interactive, Seybold Seminars, the GRAFILL conference (Geilo, Norway), and one of the first W3C International Expos.",
+        "description": "Do you want to build web pages but have no prior experience? This friendly guide is the perfect place to start. You\u2019ll begin at square one, learning how the web and web pages work, and then steadily build from there. By the end of the book, you\u2019ll have the skills to create a simple site with multicolumn pages that adapt for mobile devices.",
+        "genre": "Computers & Technology",
+        "publisher": "O'Reilly Media",
+        "release_date": "May 29, 2018",
+        "rating": null,
+        "comments": "",
+        "price": "38.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 19,
+    "fields": {
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship (1st Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41jEbK-jG%2BL._SX374_BO1,204,203,200_.jpg",
+        "author": "Robbert C. Martin",
+        "bio": "Robert C. \u201cUncle Bob\u201d Martin\u00a0has been a software professional since 1970 and an international software consultant since 1990. He is founder and president of Object Mentor, Inc., a team of experienced consultants who mentor their clients worldwide in the fields of C++, Java, C#, Ruby, OO, Design Patterns, UML, Agile Methodologies, and eXtreme programming.",
+        "description": "Clean Code\u00a0is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code\u2014of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and \u201csmells\u201d gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code.",
+        "genre": "Computers & Technology",
+        "publisher": "Prentice Hall",
+        "release_date": "August 11, 2008",
+        "rating": null,
+        "comments": "",
+        "price": "26.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 20,
+    "fields": {
+        "title": "Grokking Algorithms: An illustrated guide for programmers and other curious people (1st Edition)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/61uUPXbhMxL._SX397_BO1,204,203,200_.jpg",
+        "author": "Aditya Bhargava",
+        "bio": "Aditya Bhargava is a Software Engineer with a dual background in Computer Science and Fine Arts. He blogs on programming at adit.io.",
+        "description": "Grokking Algorithms\u00a0is a fully illustrated, friendly guide that teaches you how to apply common algorithms to the practical problems you face every day as a programmer. You'll start with sorting and searching and, as you build up your skills in thinking algorithmically, you'll tackle more complex concerns such as data compression and artificial intelligence. Each carefully presented example includes helpful diagrams and fully annotated code samples in Python.",
+        "genre": "Computers & Technology",
+        "publisher": "Manning Publications",
+        "release_date": "May 2016",
+        "rating": null,
+        "comments": "",
+        "price": "36.09"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 21,
+    "fields": {
+        "title": "Where the Wild Things Are",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/61zGOvBSgAL._SY452_BO1,204,203,200_.jpg",
+        "author": "Maurice Sendak",
+        "bio": "Maurice Sendak\u2019s children\u2019s books have sold over 30 million copies and have been translated into more than 40 languages. He received the 1964 Caldecott Medal for Where the Wild Things Are and is the creator of such classics as In the Night Kitchen, Outside Over There, Higglety Pigglety Pop!, and Nutshell Library. In 1970 he received the international Hans Christian Andersen Medal for Illustration, in 1983 he received the Laura Ingalls Wilder Award from the American Library Association, and in 1996 he received a National Medal of Arts in recognition of his contribution to the arts in America. In 2003, Sendak received the first Astrid Lindgren Memorial Award, an annual international prize for children\u2019s literature established by the Swedish government.",
+        "description": "Where the Wild Things Are is fifty years old! Maurice Sendak's Caldecott Medal-winning picture book has become one of the most highly acclaimed and best-loved children's books of all time. A must for every child's bookshelf.\r\n\r\nIntroduce a new generation to Max's imaginative journey with this special anniversary edition. Let the wild rumpus continue as this classic comes to life like never before with new reproductions of Maurice Sendak's artwork.\r\n\r\nAstonishing state-of-the-art technology faithfully captures the color and detail of the original illustrations. Sendak himself enthusiastically endorsed this impressive new interpretation of his art before his death in 2012. This iconic story has inspired a movie, an opera, and the imagination of generations.",
+        "genre": "Children's Books",
+        "publisher": "HarperCollins",
+        "release_date": "December 26, 2012",
+        "rating": null,
+        "comments": "",
+        "price": "13.29"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 22,
+    "fields": {
+        "title": "The Day the Crayons Quit",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/4158rC-yLYL._SX495_BO1,204,203,200_.jpg",
+        "author": "Drew Daywalt",
+        "bio": "Although Drew Daywalt grew up in a haunted house, he now lives in a Southern California home, haunted by only his wife, two kids, and five-month-old German Shepherd. His favorite crayon is Black.",
+        "description": "Duncan\u2019s crayons are on strike. One morning he opens his desk looking for them and, in their place, finds a pack of letters detailing their grievances, one crayon at a time. Red is tired. Beige is bored. Black is misunderstood. Peach is naked! The conceit is an enticing one, and although the crayons\u2019 complaints are not entirely unique (a preponderance centers around some variation of overuse), the artist\u2019s indelible characterization contributes significant charm. Indeed, Jeffers\u2019 ability to communicate emotion in simple gestures, even on a skinny cylinder of wax, elevates crayon drawing to remarkable heights. First-class bookmaking, with clean design, ample trim size, and substantial paper stock, adds to the quality feel. A final spread sees all things right, as Duncan fills a page with bright, delightful imagery, addressing each of the crayons\u2019 issues and forcing them into colorful cooperation. Kids who already attribute feelings to their playthings will never look at crayons the same way again. Grades K-3. --Thom Barthelmess",
+        "genre": "Children's Books",
+        "publisher": "Philomel Books",
+        "release_date": "June 27, 2013",
+        "rating": null,
+        "comments": "",
+        "price": "9.19"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 23,
+    "fields": {
+        "title": "Wonder",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41rBFbAYOeL._SX337_BO1,204,203,200_.jpg",
+        "author": "R. J. Palacio",
+        "bio": "R. J. PALACIO lives in NYC with her husband, two sons, and two dogs. For more than twenty years, she was an art director and graphic designer, designing book jackets for other people while waiting for the perfect time in her life to start writing her own novel. But one day several years ago, a chance encounter with an extraordinary child in front of an ice cream store made R. J. realize that the perfect time to write that novel had finally come. Wonder is her first novel. She did not design the cover, but she sure does love it.",
+        "description": "I won't describe what I look like. Whatever you're thinking, it's probably worse. \r\n \r\nAugust Pullman was born with a facial difference that, up until now, has prevented him from going to a mainstream school. Starting 5th grade at Beecher Prep, he wants nothing more than to be treated as an ordinary kid\u2014but his new classmates can\u2019t get past Auggie\u2019s extraordinary face. WONDER, now a #1 New York Times bestseller and included on the Texas Bluebonnet Award master list, begins from Auggie\u2019s point of view, but soon switches to include his classmates, his sister, her boyfriend, and others. These perspectives converge in a portrait of one community\u2019s struggle with empathy, compassion, and acceptance.",
+        "genre": "Children's Books",
+        "publisher": "Knopf Books for Young Readers",
+        "release_date": "February 14, 2012",
+        "rating": null,
+        "comments": "",
+        "price": "9.79"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 24,
+    "fields": {
+        "title": "Holes",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51M-Bp5PcPL._SX338_BO1,204,203,200_.jpg",
+        "author": "Louis Sachar",
+        "bio": "Louis Sachar is the author of the #1 New York Times bestseller Holes, which won the Newbery Medal, the National Book Award, and the Christopher Award, as well as Stanley Yelnats' Survival to Camp Green Lake; Small Steps, winner of the Schneider Family Book Award; and The Cardturner, a Publishers Weekly Best Book, a Parents' Choice Gold Award recipient, and an ALA-YALSA Best Fiction for Young Adults Book. His books for younger readers include There's a Boy in the Girls' Bathroom, The Boy Who Lost His Face, Dogs Don't Tell Jokes, and the Marvin Redpost series, among many others.",
+        "description": "Stanley Yelnats is under a curse. A curse that began with his no-good-dirty-rotten-pig-stealing-great-great-grandfather and has since followed generations of Yelnatses. Now Stanley has been unjustly sent to a boys\u2019 detention center, Camp Green Lake, where the boys build character by spending all day, every day digging holes exactly five feet wide and five feet deep. There is no lake at Camp Green Lake. But there are an awful lot of holes.\r\n\r\nIt doesn\u2019t take long for Stanley to realize there\u2019s more than character improvement going on at Camp Green Lake. The boys are digging holes because the warden is looking for something. But what could be buried under a dried-up lake? Stanley tries to dig up the truth in this inventive and darkly humorous tale of crime and punishment\u2014and redemption.",
+        "genre": "Children's Books",
+        "publisher": "Yearling",
+        "release_date": "May 9, 2000",
+        "rating": null,
+        "comments": "",
+        "price": "7.55"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 25,
+    "fields": {
+        "title": "Esperanza Rising",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/519TVmJN7sL._SX342_BO1,204,203,200_.jpg",
+        "author": "Pam Mu\u00f1oz Ryan",
+        "bio": "Pam Mu\u00f1oz Ryan is the recipient of the Newbery Honor Medal and the Kirkus Prize for her New York Times bestselling novel, Echo, as well as the NEA's Human and Civil Rights Award and the Virginia Hamilton Literary Award for multicultural literature for her body of work. Her celebrated novels, Echo, Esperanza Rising, The Dreamer, Riding Freedom, Becoming Naomi L\u00e9on, and Paint the Wind, have received countless accolades, among them two Pura Belpr\u00e9 Awards, a NAPPA Gold Award, a Jane Addams Children's Book Award, and two Am\u00e9ricas Awards. Her acclaimed picture books include Amelia and Eleanor Go for a Ride and When Marian Sang, both illustrated by Brian Selznick, and Tony Baloney, illustrated by Edwin Fotheringham, as well as a beginning reader series featuring Tony Baloney. Ryan lives near San Diego, California, with her family.",
+        "description": "Esperanza thought she'd always live a privileged life on her family's ranch in Mexico. She'd always have fancy dresses, a beautiful home filled with servants, and Mama, Papa, and Abuelita to care for her. But a sudden tragedy forces Esperanza and Mama to flee to California and settle in a Mexican farm labor camp. Esperanza isn't ready for the hard work, financial struggles brought on by the Great Depression, or lack of acceptance she now faces. When Mama gets sick and a strike for better working conditions threatens to uproot their new life, Esperanza must find a way to rise above her difficult circumstances-because Mama's life, and her own, depend on it.",
+        "genre": "Children's Books",
+        "publisher": "Scholastic",
+        "release_date": "September 27, 2016",
+        "rating": null,
+        "comments": "",
+        "price": "6.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 26,
+    "fields": {
+        "title": "Owl Moon",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51homGIn%2BdL._SX381_BO1,204,203,200_.jpg",
+        "author": "Jane Yolen",
+        "bio": "Born and raised in New York City, Jane Yolen now lives in Hatfield, Massachusetts. She attended Smith College and received her master's degree in education from the University of Massachusetts. The distinguished author of more than 170 books, Jane Yolen is a person of many talents. When she is not writing, Yolen composes songs, is a professional storyteller on the stage, and is the busy wife of a university professor, the mother of three grown children, and a grandmother.\r\n\r\nActive in several organizations, Yolen has been on the Board of Directors of the Society of Children's Book Writers and Illustrators, was president of the Science Fiction Writers of America from 1986 to 1988, is on the editorial board of several magazines, and was a founding member of the Western New England Storytellers Guild, the Western Massachusetts Illustrators Guild, and the Bay State Writers Guild. For twenty years, she ran a monthly writer's workshop for new children's book authors. In 1980, when Yolen was awarded an honorary Doctor of Law degree by Our Lady of the Elms College in Chicopee, Massachusetts, the citation recognized that \"throughout her writing career she has remained true to her primary source of inspiration--folk culture.\" Folklore is the \"perfect second skin,\" writes Yolen. \"From under its hide, we can see all the shimmering, shadowy uncertainties of the world.\" Folklore, she believes, is the universal human language, a language that children instinctively feel in their hearts.\r\n\r\nAll of Yolen's stories and poems are somehow rooted in her sense of family and self. The Emperor and the Kite, which was a Caldecott Honor Book in 1983 for its intricate papercut illustrations by Ed Young, was based on Yolen's relationship with her late father, who was an international kite-flying champion. Owl Moon, winner of the 1988 Caldecott Medal for John Schoenherr's exquisite watercolors, was inspired by her husband's interest in birding.\r\n\r\nYolen's graceful rhythms and outrageous rhymes have been gathered in numerous collections. She has earned many awards over the years: the Regina Medal, the Kerlan Award, the World Fantasy Award, the Society of Children's Book Writers Award, the Mythopoetic Society's Aslan Award, the Christopher Medal, the Boy's Club Jr. Book Award, the Garden State Children's Book Award, the Daedalus Award, a number of Parents' Choice Magazine Awards, and many more. Her books and stories have been translated into Japanese, French, Spanish, Chinese, German, Swedish, Norwegian, Danish, Afrikaans, !Xhosa, Portuguese, and Braille.\r\n\r\nWith a versatility that has led her to be called \"America's Hans Christian Andersen,\" Yolen, the child of two writers, is a gifted and natural storyteller. Perhaps the best explanation for her outstanding accomplishments comes from Jane Yolen herself: \"I don't care whether the story is real or fantastical. I tell the story that needs to be told.\"",
+        "description": "Late one winter night a little girl and her father go owling. The trees stand still as statues and the world is silent as a dream. Whoo-whoo-whoo, the father calls to the mysterious nighttime bird.\r\n\r\nBut there is no answer.\r\n\r\nWordlessly the two companions walk along, for when you go owling you don't need words. You don't need anything but hope. Sometimes there isn't an owl, but sometimes there is.\r\n\r\nDistinguished author Jane Yolen has created a gentle, poetic story that lovingly depicts the special companionship of a young child and her father as well as humankind's close relationship to the natural world. Wonderfully complemented by John Schoenherr's soft, exquisite watercolor illustrations, this is a verbal and visual treasure, perfect for reading around and sharing at bedtime.",
+        "genre": "Children's Books",
+        "publisher": "Philomel Books",
+        "release_date": "October 23, 1987",
+        "rating": null,
+        "comments": "",
+        "price": "11.49"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 27,
+    "fields": {
+        "title": "American Born Chinese",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51ds7VUkZQL._SX325_BO1,204,203,200_.jpg",
+        "author": "Gene Luen Yang",
+        "bio": "Gene Luen Yang began drawing comic books in the fifth grade. In 1997, he received the Xeric Grant, a prestigious comics industry grant, for Gordon Yamamoto and the King of the Geeks, his first comics work. He has since written and drawn a number of titles, including Duncan's Kingdom (with art by Derek Kirk Kim), The Rosary Comic Book, Prime Baby and Animal Crackers. American Born Chinese, his first graphic novel from First Second, was a National Book Award finalist, as well as the winner of the Printz Award and an Eisner Award. He also won an Eisner for The Eternal Smile, a collaboration with Derek Kirk Kim. Yang lives in the San Francisco Bay Area, where he teaches high school.",
+        "description": "Gene Luen Yang is the National Ambassador for Young People's Literature.\r\n\r\nJin Wang starts at a new school where he's the only Chinese-American student. When a boy from Taiwan joins his class, Jin doesn't want to be associated with an FOB like him. Jin just wants to be an all-American boy, because he's in love with an all-American girl. Danny is an all-American boy: great at basketball, popular with the girls. But his obnoxious Chinese cousin Chin-Kee's annual visit is such a disaster that it ruins Danny's reputation at school, leaving him with no choice but to transfer somewhere he can start all over again. The Monkey King has lived for thousands of years and mastered the arts of kung fu and the heavenly disciplines. He's ready to join the ranks of the immortal gods in heaven. But there's no place in heaven for a monkey. Each of these characters cannot help himself alone, but how can they possibly help each other? They're going to have to find a way\u2015if they want fix the disasters their lives have become.\r\n\r\nAmerican Born Chinese is a 2006 National Book Award Finalist for Young People's Literature, the winner of the 2007 Eisner Award for Best Graphic Album: New, an Eisner Award nominee for Best Coloring, a 2007 Bank Street Best Children's Book of the Year, and a New York Times bestseller.\r\n\r\nThis title has Common Core Connections",
+        "genre": "Children's Books",
+        "publisher": "Square Fish",
+        "release_date": "December 23, 2008",
+        "rating": null,
+        "comments": "",
+        "price": "9.89"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 28,
+    "fields": {
+        "title": "Walk Two Moons",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51GHGLrCHCL._SX334_BO1,204,203,200_.jpg",
+        "author": "Sharon Creech",
+        "bio": "Sharon Creech has written twenty-one books for young people and is published in over twenty languages. Her books have received awards in both the U.S. and abroad, including the Newbery Medal for Walk Two Moons, the Newbery Honor for The Wanderer, and Great Britain\u2019s Carnegie Medal for Ruby Holler.\r\n\r\nBefore beginning her writing career, Sharon Creech taught English for fifteen years in England and Switzerland. She and her husband now live in Maine, \u201clured there by our grandchildren,\u201d Creech says.",
+        "description": "Thirteen-year-old Salamanca Tree Hiddle, proud of her country roots and the \"Indian-ness in her blood,\" travels from Ohio to Idaho with her eccentric grandparents. Along the way, she tells them of the story of Phoebe Winterbottom, who received mysterious messages, who met a \"potential lunatic,\" and whose mother disappeared.\r\n\r\nAs Sal entertains her grandparents with Phoebe's outrageous story, her own story begins to unfold\u2014the story of a thirteen-year-old girl whose only wish is to be reunited with her missing mother.",
+        "genre": "Children's Books",
+        "publisher": "HarperCollins",
+        "release_date": "June 18, 2019",
+        "rating": null,
+        "comments": "",
+        "price": "4.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 29,
+    "fields": {
+        "title": "The Poet X",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51b%2Bgbda39L._SX329_BO1,204,203,200_.jpg",
+        "author": "Elizabeth Acevedo",
+        "bio": "Elizabeth Acevedo is the author of The Poet X\u2014which won the National Book Award for Young People\u2019s Literature, the Michael L. Printz Award, the Pura Belpr\u00e9 Award, the Boston Globe\u2013Horn Book Award, and the Walter Award\u2014as well as With the Fire on High and Clap When You Land. She is a National Poetry Slam champion and holds an MFA in creative writing from the University of Maryland. Acevedo lives with her partner in Washington, DC.",
+        "description": "Xiomara Batista feels unheard and unable to hide in her Harlem neighborhood. Ever since her body grew into curves, she has learned to let her fists and her fierceness do the talking.\r\n\r\nBut Xiomara has plenty she wants to say, and she pours all her frustration and passion onto the pages of a leather notebook, reciting the words to herself like prayers\u2014especially after she catches feelings for a boy in her bio class named Aman, who her family can never know about.\r\n\r\nWith Mami\u2019s determination to force her daughter to obey the laws of the church, Xiomara understands that her thoughts are best kept to herself. So when she is invited to join her school\u2019s slam poetry club, she doesn\u2019t know how she could ever attend without her mami finding out. But she still can\u2019t stop thinking about performing her poems.\r\n\r\nBecause in the face of a world that may not want to hear her, Xiomara refuses to be silent.",
+        "genre": "Children's Books",
+        "publisher": "Quill Tree Books",
+        "release_date": "March 6, 2018",
+        "rating": null,
+        "comments": "",
+        "price": "10.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 30,
+    "fields": {
+        "title": "El Deafo",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41MkF9mkhBL._SX332_BO1,204,203,200_.jpg",
+        "author": "Cece Bell",
+        "bio": "Cece Bell has written and illustrated several books for children, including the Geisel Honor book Rabbit & Robot: The Sleepover. She lives in Virginia with her husband, author Tom Angleberger.",
+        "description": "A 2015 Newbery Honor Book Going to school and making new friends can be tough. But going to school and making new friends while wearing a bulky hearing aid strapped to your chest? That requires superpowers! In this funny, poignant graphic novel memoir, author/illustrator Cece Bell chronicles her hearing loss at a young age and her subsequent experiences with the Phonic Ear, a very powerful\u2014and very awkward\u2014hearing aid.\r\nThe Phonic Ear gives Cece the ability to hear\u2014sometimes things she shouldn\u2019t\u2014but also isolates her from her classmates. She really just wants to fit in and find a true friend, someone who appreciates her as she is. After some trouble, she is finally able to harness the power of the Phonic Ear and become \u201cEl Deafo, Listener for All.\u201d And more importantly, declare a place for herself in the world and find the friend she\u2019s longed for.",
+        "genre": "Children's Books",
+        "publisher": "Harry N. Abrams",
+        "release_date": "September 2, 2014",
+        "rating": null,
+        "comments": "",
+        "price": "7.44"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 31,
+    "fields": {
+        "title": "The Last Unicorn",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51Nm50PASeL._SX330_BO1,204,203,200_.jpg",
+        "author": "Peter S. Beagle",
+        "bio": "Peter S. Beagle was born in 1939 and raised in the Bronx, just a few blocks from Woodlawn Cemetery, the inspiration for his first novel, A Fine and Private Place. Today, thanks to classic works such as The Last Unicorn, Tamsin, and The Innkeeper\u2019s Song, he is acknowledged as America\u2019s greatest living fantasy author; and his dazzling abilities with language, characters, and magical storytelling have earned him many millions of fans around the world.\r\n \r\nIn addition to stories and novels Beagle has written numerous teleplays and screenplays, including the animated versions of The Lord of the Rings and The Last Unicorn, plus the fan-favorite \u201cSarek\u201d episode of Star Trek: The Next Generation. His nonfiction book I See By My Outfit, which recounts a 1963 journey across America on motor scooter, is considered a classic of American travel writing; and he is also a gifted poet, lyricist, and singer/songwriter.",
+        "description": "The unicorn lived in a lilac wood, and she lived all alone. So she ventured out from the safety of the enchanted forest on a quest for others of her kind. Joined along the way by the bumbling magician Schmendrick and the indomitable Molly Grue, the unicorn learns all about the joys and sorrows of life and love before meeting her destiny in the castle of a despondent monarch\u2014and confronting the creature that would drive her kind to extinction...",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "Ace",
+        "release_date": "January 1, 1991",
+        "rating": null,
+        "comments": "",
+        "price": "12.29"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 32,
+    "fields": {
+        "title": "The Night Tiger: A Novel",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/515GkavUKPL.jpg",
+        "author": "Yangsze Choo",
+        "bio": "Yangsze Choo is the NYTimes bestselling author of THE GHOST BRIDE (soon to be a Netflix Original series) and THE NIGHT TIGER, Reese Witherspoon x Hello Sunshine's Book Club Pick, Amazon's Spotlight Pick for Best Book of the Month, with starred Kirkus, Booklist, and Publisher's Weekly reviews.\r\n\r\nYangsze loves to eat and read, and often does both at the same time. She also loves book clubs and is happy to visit or Skype in. Visit her blog at www.yschoo.com",
+        "description": "Quick-witted, ambitious Ji Lin is stuck as an apprentice dressmaker, moonlighting as a dancehall girl to help pay off her mother\u2019s Mahjong debts. But when one of her dance partners accidentally leaves behind a gruesome souvenir, Ji Lin may finally get the adventure she has been longing for.\r\n\r\nEleven-year-old houseboy Ren is also on a mission, racing to fulfill his former master\u2019s dying wish: that Ren find the man\u2019s finger, lost years ago in an accident, and bury it with his body. Ren has 49 days to do so, or his master\u2019s soul will wander the earth forever.\r\n\r\nAs the days tick relentlessly by, a series of unexplained deaths racks the district, along with whispers of men who turn into tigers. Ji Lin and Ren\u2019s increasingly dangerous paths crisscross through lush plantations, hospital storage rooms, and ghostly dreamscapes.\r\n\r\nYangsze Choo's The Night Tiger pulls us into a world of servants and masters, age-old superstition and modern idealism, sibling rivalry and forbidden love. But anchoring this dazzling, propulsive novel is the intimate coming-of-age of a child and a young woman, each searching for their place in a society that would rather they stay invisible.",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "Flatiron Book",
+        "release_date": "February 12, 2019",
+        "rating": null,
+        "comments": "",
+        "price": "10.94"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 33,
+    "fields": {
+        "title": "Gilgamesh: A New English Version",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51YP9IkiZuL._SX324_BO1,204,203,200_.jpg",
+        "author": "Stephen Mitchell",
+        "bio": "Stephen Mitchell was born in Brooklyn in 1943, educated at Amherst, the Sorbonne, and Yale, and de-educated through intensive Zen practice. His many books include the bestselling Tao Te Ching, The Gospel According to Jesus, Bhagavad Gita, The Book of Job, Meetings with the Archangel, Gilgamesh, The Second Book of the Tao, and the Iliad. When he is not writing, he likes to (in no particular order) think about writing, think about not writing, not think about writing, and not think about not writing. He is married to Byron Katie and cowrote: Loving What Is, A Thousand Names for Joy, and A Mind at Home with Itself. You can read extensive excerpts from all his books on his website, stephenmitchellbooks.com.",
+        "description": "Gilgamesh is considered one of the masterpieces of world literature, but until now there has not been a version that is a superlative literary text in its own right.\r\n\r\nAcclaimed by critics and scholars, Stephen Mitchell's version allows us to enter an ancient masterpiece as if for the first time, to see how startlingly beautiful, intelligent, and alive it is.",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "Atria Books",
+        "release_date": "February 1, 2006",
+        "rating": null,
+        "comments": "",
+        "price": "10.26"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 34,
+    "fields": {
+        "title": "Beowulf: A Translation and Commentary",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51XBodiqMiL._SX318_BO1,204,203,200_.jpg",
+        "author": "J.R.R. Tolkien",
+        "bio": "J.R.R. Tolkien (1892.1973), beloved throughout the world as the creator of The Hobbit and The Lord of the Rings, was a professor of Anglo-Saxon at Oxford, a fellow of Pembroke College, and a fellow of Merton College until his retirement in 1959. His chief interest was the linguistic aspects of the early English written tradition, but even as he studied these classics he was creating a set of his own.",
+        "description": "J.R.R. Tolkien completed his translation of Beowulf in 1926: he returned to it later to make hasty corrections, but seems never to have considered its publication. This edition includes an illuminating written commentary on the poem by the translator himself, drawn from a series of lectures he gave at Oxford in the 1930s.\r\n \r\nHis creative attention to detail in these lectures gives rise to a sense of the immediacy and clarity of his vision. It is as if Tolkien entered into the imagined past: standing beside Beowulf and his men shaking out their mail-shirts as they beach their ship on the coast of Denmark, listening to Beowulf\u2019s rising anger at Unferth\u2019s taunting, or looking up in amazement at Grendel\u2019s terrible hand set under the roof of Heorot.",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "Mariner Books",
+        "release_date": "August 4, 2015",
+        "rating": null,
+        "comments": "",
+        "price": "12.84"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 35,
+    "fields": {
+        "title": "Grendel",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51aRDmVG60L._SX322_BO1,204,203,200_.jpg",
+        "author": "John Gardner",
+        "bio": "John Gardner (1933-1982) was born in Batavia, New York. His critically acclaimed books include the novels Grendel, The Sunlight Dialogues, and October Light, for which he received the National Book Critics Circle Award, as well as several works of nonfiction and criticism such as On Becoming a Novelist. He was also a professor of medieval literature and a pioneering creative writing teacher whose students included Raymond Carver and Charles Johnson.",
+        "description": "The first and most terrifying monster in English literature, from the great early epic Beowulf, tells his own side of the story in this frequently banned book. This  classic and much lauded retelling of Beowulf follows the monster Grendel as he learns about humans and fights the war at the center of the Anglo Saxon classic epic. This is the book William Gass called \"one of the finest of our contemporary fictions.\"",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "Vintage",
+        "release_date": "May 14, 1989",
+        "rating": null,
+        "comments": "",
+        "price": "8.96"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 36,
+    "fields": {
+        "title": "Fairy & Folk Tales of Ireland: Slip-cased Edition",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51oW6C-93tL._SY331_BO1,204,203,200_.jpg",
+        "author": "William Butler Yeats",
+        "bio": "William Butler Yeats (/\u02c8je\u026ats/; 13 June 1865 \u2013 28 January 1939) was an Irish poet and one of the foremost figures of 20th-century literature. A pillar of both the Irish and British literary establishments, in his later years he served as an Irish Senator for two terms. Yeats was a driving force behind the Irish Literary Revival and, along with Lady Gregory, Edward Martyn, and others, founded the Abbey Theatre, where he served as its chief during its early years. In 1923, he was awarded the Nobel Prize in Literature as the first Irishman so honoured for what the Nobel Committee described as \"inspired poetry, which in a highly artistic form gives expression to the spirit of a whole nation.\" Yeats is generally considered one of the few writers who completed their greatest works after being awarded the Nobel Prize; such works include The Tower (1928) and The Winding Stair and Other Poems (1929).\r\n\r\nWilliam Butler Yeats was born in Sandymount, Ireland and educated there and in London; he spent his childhood holidays in County Sligo. He studied poetry in his youth and from an early age was fascinated by both Irish legends and the occult. Those topics feature in the first phase of his work, which lasted roughly until the turn of the 20th century. His earliest volume of verse was published in 1889, and its slow-paced and lyrical poems display Yeats's debts to Edmund Spenser, Percy Bysshe Shelley, and the poets of the Pre-Raphaelite Brotherhood. From 1900, Yeats's poetry grew more physical and realistic. He largely renounced the transcendental beliefs of his youth, though he remained preoccupied with physical and spiritual masks, as well as with cyclical theories of life.",
+        "description": "One of Ireland's greatest writers, the Nobel-prize winner W. B. Yeats, was fascinated by the myths and folklore of his native country. Compiled by Yeats in 1892, these stories were collected around the country by a variety of historians, including Lady Wilde, the mother of Oscar Wilde.\r\n\r\nWithin these pages, you'll discover tales of greedy sons who get their comeuppance, canny priests, evil witches and demons alongside legends of heroic kings, giants and, of course, the good folk themselves - the fairies, the leprechauns and the cluricauns. These are yarns that have passed down through generations and which are still as entertaining and magical as when they were first recalled.\r\n\r\nThis gorgeous foil-stamped edition includes enchanting illustrations and is presented in a handsome slipcase.",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "Sirius",
+        "release_date": "September 1, 2017",
+        "rating": null,
+        "comments": "",
+        "price": "18.46"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 37,
+    "fields": {
+        "title": "Favorite Folktales from Around the World (The Pantheon Fairy Tale and Folklore Library)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51sZaotl%2BsL._SX326_BO1,204,203,200_.jpg",
+        "author": "Jane Yolen",
+        "bio": "Born and raised in New York City, Jane Yolen now lives in Hatfield, Massachusetts. She attended Smith College and received her master's degree in education from the University of Massachusetts. The distinguished author of more than 170 books, Jane Yolen is a person of many talents. When she is not writing, Yolen composes songs, is a professional storyteller on the stage, and is the busy wife of a university professor, the mother of three grown children, and a grandmother. Active in several organizations, Yolen has been on the Board of Directors of the Society of Children's Book Writers and Illustrators, was president of the Science Fiction Writers of America from 1986 to 1988, is on the editorial board of several magazines, and was a founding member of the Western New England Storytellers Guild, the Western Massachusetts Illustrators Guild, and the Bay State Writers Guild. For twenty years, she ran a monthly writer's workshop for new children's book authors. In 1980, when Yolen was awarded an honorary Doctor of Law degree by Our Lady of the Elms College in Chicopee, Massachusetts, the citation recognized that \"throughout her writing career she has remained true to her primary source of inspiration--folk culture.\" Folklore is the \"perfect second skin,\" writes Yolen. \"From under its hide, we can see all the shimmering, shadowy uncertainties of the world.\" Folklore, she believes, is the universal human language, a language that children instinctively feel in their hearts. All of Yolen's stories and poems are somehow rooted in her sense of family and self. The Emperor and the Kite, which was a Caldecott Honor Book in 1983 for its intricate papercut illustrations by Ed Young, was based on Yolen's relationship with her late father, who was an international kite-flying champion. Owl Moon, winner of the 1988 Caldecott Medal for John Schoenherr's exquisite watercolors, was inspired by her husband's interest in birding. Yolen's graceful rhythms and outrageous rhymes have been gathered in numerous collections. She has earned many awards over the years: the Regina Medal, the Kerlan Award, the World Fantasy Award, the Society of Children's Book Writers Award, the Mythopoetic Society's Aslan Award, the Christopher Medal, the Boy's Club Jr. Book Award, the Garden State Children's Book Award, the Daedalus Award, a number of Parents' Choice Magazine Awards, and many more. Her books and stories have been translated into Japanese, French, Spanish, Chinese, German, Swedish, Norwegian, Danish, Afrikaans, !Xhosa, Portuguese, and Braille. With a versatility that has led her to be called \"America's Hans Christian Andersen,\" Yolen, the child of two writers, is a gifted and natural storyteller. Perhaps the best explanation for her outstanding accomplishments comes from Jane Yolen herself: \"I don't care whether the story is real or fantastical. I tell the story that needs to be told.\"",
+        "description": "From Africa, Burma, and Czechoslovakia to Turkey, Vietnam, and Wales here are more than 150 of the world's best-loved folktales from more than forty countries and cultures. These tales of wonder and transformation, of heroes and heroines, of love lost and won, of ogres and trolls, stories both jocular and cautionary and legends of pure enchantment will delight readers and storytellers of all ages.",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "Pantheon",
+        "release_date": "August 12, 1988",
+        "rating": null,
+        "comments": "",
+        "price": "14.95"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 38,
+    "fields": {
+        "title": "Till We Have Faces: A Myth Retold",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51-2APPfJAL._SX331_BO1,204,203,200_.jpg",
+        "author": "Clive Staples Lewis",
+        "bio": "Clive Staples Lewis (1898\u20131963) was one of the intellectual giants of the twentieth century and arguably one of the most influential writers of his day. He was a Fellow and Tutor in English Literature at Oxford University until 1954, when he was unanimously elected to the Chair of Medieval and Renaissance Literature at Cambridge University, a position he held until his retirement. He wrote more than thirty books, allowing him to reach a vast audience, and his works continue to attract thousands of new readers every year. His most distinguished and popular accomplishments include Mere Christianity, Out of the Silent Planet, The Great Divorce, The Screwtape Letters, and the universally acknowledged classics The Chronicles of Narnia. To date, the Narnia books have sold over 100 million copies and been transformed into three major motion pictures.",
+        "description": "A repackaged edition of the revered author\u2019s retelling of the myth of Cupid and Psyche\u2014what he and many others regard as his best novel.\r\n\r\nC. S. Lewis\u2014the great British writer, scholar, lay theologian, broadcaster, Christian apologist, and bestselling author of Mere Christianity, The Screwtape Letters, The Great Divorce, The Chronicles of Narnia, and many other beloved classics\u2014brilliantly reimagines the story of Cupid and Psyche. Told from the viewpoint of Psyche\u2019s sister, Orual, Till We Have Faces is a brilliant examination of envy, betrayal, loss, blame, grief, guilt, and conversion. In this, his final\u2014and most mature and masterful\u2014novel, Lewis reminds us of our own fallibility and the role of a higher power in our lives.",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "HarperOne",
+        "release_date": "February 14, 2017",
+        "rating": null,
+        "comments": "",
+        "price": "12.89"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 39,
+    "fields": {
+        "title": "Norse Mythology",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51Dn2vq%2BWfL._SX344_BO1,204,203,200_.jpg",
+        "author": "Neil Gaiman",
+        "bio": "Neil Gaiman is the author of the New York Times best-selling A View from the Cheap Seats, The Ocean at the End of the Lane, The Graveyard Book, Coraline, Neverwhere, and the Sandman series of graphic novels, among other works. His fiction has received Newbery, Carnegie, Hugo, Nebula, World Fantasy, and Will Eisner Awards. His novel American Gods aired as a TV series in 2017. Originally from England, he lives in the United States, where he is a professor at Bard College.",
+        "description": "Neil Gaiman, long inspired by ancient mythology in creating the fantastical realms of his fiction, presents a bravura rendition of the Norse gods and their world from their origin though their upheaval in Ragnarok.\r\n\r\nIn Norse Mythology, Gaiman stays true to the myths in envisioning the major Norse pantheon: Odin, the highest of the high, wise, daring, and cunning; Thor, Odin\u2019s son, incredibly strong yet not the wisest of gods; and Loki\u2015son of a giant\u2015blood brother to Odin and a trickster and unsurpassable manipulator.\r\n\r\nGaiman fashions these primeval stories into a novelistic arc that begins with the genesis of the legendary nine worlds and delves into the exploits of deities, dwarfs, and giants. Through Gaiman\u2019s deft and witty prose, these gods emerge with their fiercely competitive natures, their susceptibility to being duped and to duping others, and their tendency to let passion ignite their actions, making these long-ago myths breathe pungent life again.",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "W. W. Norton & Company",
+        "release_date": "March 6, 2018",
+        "rating": null,
+        "comments": "",
+        "price": "11.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 40,
+    "fields": {
+        "title": "Cycle of the Werewolf: A Novel",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51MYIZktXPL._SX331_BO1,204,203,200_.jpg",
+        "author": "Stephen King",
+        "bio": "Stephen King is the author of more than sixty books, all of them worldwide bestsellers. His recent work includes The Institute, Elevation, The Outsider, Sleeping Beauties (cowritten with his son Owen King), and the Bill Hodges trilogy: End of Watch, Finders Keepers, and Mr. Mercedes (an Edgar Award winner for Best Novel and an AT&T Audience Network original television series). His novel 11/22/63 was named a top ten book of 2011 by The New York Times Book Review and won the Los Angeles Times Book Prize for Mystery/Thriller. His epic works The Dark Tower, It, Pet Sematary, and Doctor Sleep are the basis for major motion pictures, with It now the highest grossing horror film of all time. He is the recipient of the 2018 PEN America Literary Service Award, the 2014 National Medal of Arts, and the 2003 National Book Foundation Medal for Distinguished Contribution to American Letters. He lives in Bangor, Maine, with his wife, novelist Tabitha King.",
+        "description": "The first scream came from the snowbound railwayman who felt the werewolf\u2019s fangs ripping at his throat. The next month there was a scream of ecstatic agony from the woman attacked in her cozy bedroom. Now scenes of unbelievable horror unfold each time the full moon shines on the isolated Maine town of Tarker\u2019s Mills. No one knows who will be attacked next. But one thing is sure. When the full moon rises, a paralyzing fear sweeps through Tarker's Mills. For snarls that sound like human words can be heard whining through the wind. And all around are the footprints of a monster whose hunger cannot be sated...",
+        "genre": "Mythology & Folk Tales",
+        "publisher": "Gallery 13",
+        "release_date": "August 13, 2019",
+        "rating": null,
+        "comments": "",
+        "price": "12.39"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 41,
+    "fields": {
+        "title": "The Mamba Mentality: How I Play",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/818lSuoQbEL.jpg",
+        "author": "Kobe Bryant",
+        "bio": " Kobe Bryant was a legendary basketball player for the L.A Lakers who led them to several championships and revolutionized the game.",
+        "description": "In the wake of his retirement from professional basketball, Kobe Bryant decided to share his vast knowledge and understanding of the game to take readers on an unprecedented journey to the core of the legendary Mamba mentality. Citing an obligation and an opportunity to teach young players, hardcore fans, and devoted students of the game how to play it the right way, The Mamba Mentality takes us inside the mind of one of the most intelligent, analytical, and creative basketball players ever.",
+        "genre": "Sports and Outdoors",
+        "publisher": "MCD x FSG",
+        "release_date": "10/23/2018",
+        "rating": null,
+        "comments": null,
+        "price": "35.00"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 42,
+    "fields": {
+        "title": "The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance ",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41oYpZlSQ0L._SX321_BO1,204,203,200_.jpg ",
+        "author": "W. Timothy Gallaway",
+        "bio": "W. Timothy Gallwey has produced a series of bestselling Inner Game books, which set forth a new methodology for the development of personal and professional excellence in a variety of fields.",
+        "description": "With more than 800,000 copies sold since it was first published thirty years ago, this phenomenally successful guide has become a touchstone for hundreds of thousands of people. Not just for tennis players, or even just for athletes in general, this handbook works for anybody who wants to improve his or her performance in any activity, from playing music to getting ahead at work.",
+        "genre": "Sports and Outdoors",
+        "publisher": "Random House Trade Paperbacks",
+        "release_date": "05/28/1997",
+        "rating": null,
+        "comments": null,
+        "price": "17.00"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 43,
+    "fields": {
+        "title": "Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41hRqpFvpPL._SX328_BO1,204,203,200_.jpg ",
+        "author": "Alex Hutchinson",
+        "bio": "A former long distance runner for the Canadian national team, he holds a masters in journalism from Columbia and a Ph.D. in physics from Cambridge, and he did his post doctoral research with the National Security Agency.",
+        "description": "Blending cutting edge science and gripping storytelling in the spirit of Malcolm Gladwell who contributes the books foreword award winning journalist Alex Hutchinson reveals that a wave of paradigm altering research over the past decade suggests the seemingly physical barriers you encounter as set as much by your brain as by your body. This means the mind is the new frontier of endurance and that the horizons of performance are much more elastic than we once thought.",
+        "genre": "Sports and Outdoors",
+        "publisher": "HarperCollins Publishers",
+        "release_date": "02/06/2018",
+        "rating": null,
+        "comments": null,
+        "price": "17.00"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 44,
+    "fields": {
+        "title": "Strokes of Genius: Federer, Nadal, and the Greatest Match Ever Played",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41BHOVBfrzL._SX326_BO1,204,203,200_.jpg ",
+        "author": "L. Jon Wertheim",
+        "bio": "Lewis Jon Wertheim is a sports journalist and author. He has been a full-time staff member for Sports Illustrated since 1996, and is presently the Executive Editor.",
+        "description": "In the tradition of John McPhee\u00e2\u20ac\u2122s classic Levels of the Game, Strokes of Genius deconstructs this defining moment in sport, using that match as the backbone of a provocative, thoughtful, and entertaining look at the science, art, psychology, technology, strategy, and personality that go into a single tennis match.With vivid, intimate detail, Wertheim re-creates this epic battle in a book that is both a study of the mechanics and art of the game and the portrait of a rivalry as dramatic as that of Ali\u00e2\u20ac\u201cFrazier, Palmer\u00e2\u20ac\u201cNicklaus, and McEnroe\u00e2\u20ac\u201cBorg.",
+        "genre": "Sports and Outdoors",
+        "publisher": "Houghton Mifflin Harcourt Publishing Company",
+        "release_date": "06/01/2010",
+        "rating": null,
+        "comments": null,
+        "price": "15.95"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 45,
+    "fields": {
+        "title": "The Science of Hitting",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41BHOVBfrzL._SX326_BO1,204,203,200_.jpg ",
+        "author": "Ted Williams",
+        "bio": "Theodore Samuel Williams was an American professional baseball player and manager. He played his entire 19-year Major League Baseball career as a left fielder for the Boston Red Sox from 1939 to 1960.",
+        "description": "Ted Williams was arguably the greatest pure hitter who ever lived. A lifelong student of hitting, he sought advice from every great hitter\u00e2\u20ac\u201dand pitcher\u00e2\u20ac\u201dhe met. Drawing on that advice, as well as his own legendary life in baseball, Williams produced the all-time batting classic, The Science of Hitting. Using its detailed illustrations, anecdotes, and concise coaching, players of all skill levels will learn how to improve their fundamentals and gain keen insights into the finer points of hitting.",
+        "genre": "Sports and Outdoors",
+        "publisher": "Simon and Schuster",
+        "release_date": "04/29/1986",
+        "rating": null,
+        "comments": null,
+        "price": "16.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 46,
+    "fields": {
+        "title": "The National Team (Updated and Expanded Edition): The Inside Story of the Women Who Changed Soccer",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51aCVgNBiEL._SX331_BO1,204,203,200_.jpg ",
+        "author": "Caitlin Murray",
+        "bio": "Caitlin Murray has written about soccer for The New York Times, ESPN, Fox Sports, and Yahoo Sports. She covered the 2015 and 2019 World Cups for The Guardian, following the U.S. team through both tournaments.",
+        "description": "The U.S. Womens National Soccer Team has won four World Cups and four Olympic gold medals, set record TV ratings, drawn massive crowds, earned huge revenues for FIFA and U.S. Soccer, and helped to redefine the place of women in sports. But despite their dominance, and their rosters of superstar players, they have endured striking inequality: low pay, poor playing conditions, and limited opportunities to play in professional leagues. The National Team, from leading soccer journalist Caitlin Murray, tells the history of the USWNT in full, from their formation in the 1980s to the run-up to the 2019 World Cup, chronicling both their athletic triumphs and less visible challenges off the pitch. Murray also recounts the rise and fall of U.S. professional leagues, including the burgeoning National Womens Soccer League, an essential part of the womens game. Through nearly 100 exclusive interviews with players, coaches, and team officials, including Alex Morgan, Carli Lloyd, Hope Solo, Heather OReilly, Julie Foudy, Brandi Chastain, Pia Sundhage, Tom Sermanni, and Sunil Gulati, Murray takes readers inside the locker rooms and board rooms in engrossing detail. A story of endurance and determination, The National Team is a complete portrait of this beloved and important team",
+        "genre": "Sports and Outdoors",
+        "publisher": "Abrams Books",
+        "release_date": "08/22/2019",
+        "rating": null,
+        "comments": null,
+        "price": "18.00"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 47,
+    "fields": {
+        "title": "Bigger Leaner Stronger: The Simple Science of Building the Ultimate Male Body",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51w%2B8T3bnqL._SX355_BO1,204,203,200_.jpg ",
+        "author": "Michael Matthews",
+        "bio": "I am Mike and I believe that every person can achieve the body of his or her dreams, and I work hard to give everyone that chance by providing workable, proven advice grounded in science, not a desire to sell phony magazines, workout products, or supplements.",
+        "description": "If you want to get muscular, lean, and strong as quickly as possible without steroids, good genetics, extreme dieting, or wasting ridiculous amounts of time in the gym . . . regardless of your age . . . you want to read this book.",
+        "genre": "Sports and Outdoors",
+        "publisher": "Oculus Publishers, Inc.",
+        "release_date": "03/15/2019",
+        "rating": null,
+        "comments": null,
+        "price": "17.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 48,
+    "fields": {
+        "title": "The Bucket List: 1000 Adventures Big and Small",
+        "cover": " https://images-na.ssl-images-amazon.com/images/I/51le5ZqnMnL._SX372_BO1,204,203,200_.jpg ",
+        "author": "Kath Stathers",
+        "bio": "Extensive traveler born and raised in the Middle East.",
+        "description": "We all have things we would like to do\u00e2\u20ac\u201done day\u00e2\u20ac\u201dbut work, family, school, money, and responsibilities get in the way. This invaluable guide to fun, fantastic, and life-affirming activities features an eclectic range of ideas such as self-improvement, sports-related endeavors, natural wonders, cultural experiences, culinary delights, and more. From glassblowing in the Czech Republic to swimming with dolphins in New Zealand, The Bucket List is the perfect gift for the passionate traveler and around-the-world, continent-by-continent listing of beaches, museums, monuments, islands, inns, restaurants, mountains, and more",
+        "genre": "",
+        "publisher": "Rizzoli",
+        "release_date": "04/04/2017",
+        "rating": null,
+        "comments": null,
+        "price": "35.00"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 49,
+    "fields": {
+        "title": "Relentless: From Good to Great to Unstoppable",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51LfsTX21oL._SX327_BO1,204,203,200_.jpg",
+        "author": "Tim S. Grover",
+        "bio": " For more than two decades, legendary trainer Tim Grover has taken the greats\u00e2\u20ac\u201dMichael Jordan, Kobe Bryant, Dwyane Wade, and hundreds of relentless competitors in sports, business, and every walk of life\u00e2\u20ac\u201dand made them greater. Now, for the first time ever, he reveals what it takes to achieve total mental and physical dominance, showing you how to be relentless and achieve whatever you desire.",
+        "description": "Direct, blunt, and brutally honest, Grover breaks down what it takes to be unstoppable: you keep going when everyone else is giving up, you thrive under pressure, you never let your emotions make you weak. In The Relentless 13, he details the essential traits shared by the most intense competitors and achievers in sports, business, and all walks of life. Relentless shows you how to trust your instincts and get in the Zone; how to control and adapt to any situation; how to find your opponents weakness and attack. Grover gives you the same advice he gives his world-class clients, do not think, and shows you that anything is possible. Packed with previously untold stories and unparalleled insight into the psyches of the most successful and accomplished athletes of our time, Relentless shows you how even the best get better . . . and how you can too.",
+        "genre": "Sports and Outdoors",
+        "publisher": "Relentless Publishing",
+        "release_date": "03/11/2014",
+        "rating": null,
+        "comments": null,
+        "price": "17.00"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 50,
+    "fields": {
+        "title": "Eleven Rings: The Soul of Success",
+        "cover": " https://images-na.ssl-images-amazon.com/images/I/510V8DyEnAL._SX324_BO1,204,203,200_.jpg",
+        "author": "Phil Jackson",
+        "bio": "Philip Douglas Jackson is an American former professional basketball player, coach, and executive in the National Basketball Association.",
+        "description": "During his storied career as head coach of the Chicago Bulls and Los Angeles Lakers, Phil Jackson won more championships than any coach in the history of professional sports. Even more important, he succeeded in never wavering from coaching his way, from a place of deep values. Jackson was tagged as the Zen master half in jest by sportswriters, but the nickname speaks to an important truth: this is a coach who inspired, not goaded; who led by awakening and challenging the better angels of his players\u00e2\u20ac\u2122 nature, not their egos, fear, or greed.",
+        "genre": "Sports and Outdoors",
+        "publisher": "Penguin Group",
+        "release_date": "04/29/2014",
+        "rating": null,
+        "comments": null,
+        "price": "18.00"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 51,
+    "fields": {
+        "title": "Where the Forest Meets the Stars",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51sZRlFOe6L._SY346_.jpg",
+        "author": "Glendy Vanderah",
+        "bio": "Glendy Vanderah worked as an endangered bird specialist in Illinois before she became a writer. Originally from Chicago, she now lives in rural Florida with as many birds, butterflies, and wildflowers as she can lure to her land. Where the Forest Meets the Stars is her debut novel. Visit Glendy online at http://glendyvanderah.com/",
+        "description": "After the loss of her mother and her own battle with breast cancer, Joanna Teale returns to her graduate research on nesting birds in rural Illinois, determined to prove that her recent hardships have not broken her. She throws herself into her work from dusk to dawn, until her solitary routine is disrupted by the appearance of a mysterious child who shows up at her cabin barefoot and covered in bruises.\r\n\r\nThe girl calls herself Ursa, and she claims to have been sent from the stars to witness five miracles. With concerns about the child\u2019s home situation, Jo reluctantly agrees to let her stay\u2014just until she learns more about Ursa\u2019s past.\r\n\r\nJo enlists the help of her reclusive neighbor, Gabriel Nash, to solve the mystery of the charming child. But the more time they spend together, the more questions they have. How does a young girl not only read but understand Shakespeare? Why do good things keep happening in her presence? And why aren\u2019t Jo and Gabe checking the missing children\u2019s website anymore?\r\n\r\nThough the three have formed an incredible bond, they know difficult choices must be made. As the summer nears an end and Ursa gets closer to her fifth miracle, her dangerous past closes in. When it finally catches up to them, all of their painful secrets will be forced into the open, and their fates will be left to the stars.",
+        "genre": "Science Fiction",
+        "publisher": "Lake Union Publishing",
+        "release_date": "March 1, 2019",
+        "rating": null,
+        "comments": "",
+        "price": "15.89"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 52,
+    "fields": {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41lnLrvBnML.jpg",
+        "author": "J.K. Rowling",
+        "bio": "J.K. Rowling is the author of the record-breaking, multi-award-winning Harry Potter novels. Loved by fans around the world, the series has sold more than 500 million copies, been translated into 80 languages and made into eight blockbuster films.\r\n\r\nShe has written three companion volumes in aid of charity: Quidditch Through the Ages and Fantastic Beasts and Where to Find Them (in aid of Comic Relief and Lumos), and The Tales of Beedle the Bard (in aid of Lumos).\r\n\r\nIn 2012, J.K. Rowling's digital company and digital publisher Pottermore was launched, a place where fans can enjoy the latest news from across the wizarding world, features and original writing by J.K. Rowling.\r\n\r\nHer first novel for adult readers, The Casual Vacancy, was published in September 2012 and adapted for TV by the BBC in 2015. J.K. Rowling also writes crime novels under the pseudonym Robert Galbraith, featuring private detective Cormoran Strike. The first four novels The Cuckoo's Calling (2013), The Silkworm (2014), Career of Evil (2015) and Lethal White (2018) all topped the national and international bestseller lists. The first three have been adapted for television, produced by Bront\u00eb Film and Television.\r\n\r\nJ.K. Rowling's 2008 Harvard commencement speech was published in 2015 as an illustrated book, Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination, and sold in aid of Lumos and university-wide financial aid at Harvard.\r\n\r\nIn 2016, J.K. Rowling collaborated with writer Jack Thorne and director John Tiffany on the stage play Harry Potter and the Cursed Child Parts One and Two, which is now running at The Palace Theatre in London's West End and at The Lyric Theatre on Broadway.\r\n\r\nAlso in 2016, J.K. Rowling made her screenwriting debut with the film Fantastic Beasts and Where to Find Them. A prequel to the Harry Potter series, this new adventure of Magizoologist Newt Scamander marked the start of a five-film series to be written by the author. The second film in the series, Fantastic Beasts: The Crimes of Grindelwald was released in November 2018.\r\n\r\nThe script book of the play Harry Potter and the Cursed Child Parts One and Two was published in 2016. The original screenplays of the Fantastic Beasts films are published too: Fantastic Beasts and Where to Find Them (2016) and Fantastic Beasts: The Crimes of Grindelwald (2018).\r\n\r\nAs well as receiving an OBE and Companion of Honour for services to children's literature, J.K. Rowling has received many awards and honours, including France's L\u00e9gion d'Honneur and the Hans Christian Andersen Award.",
+        "description": "Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!",
+        "genre": "Science Fiction",
+        "publisher": "Scholastic Press",
+        "release_date": "October 1998",
+        "rating": null,
+        "comments": "",
+        "price": "11.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 53,
+    "fields": {
+        "title": "Watchers",
+        "cover": "https://m.media-amazon.com/images/I/61cDYp5o2IL.jpg",
+        "author": "Dean Koontz",
+        "bio": "Dean Koontz, the author of many #1 New York Times bestsellers, lives in Southern California with his wife, Gerda, their golden retriever, Elsa, and the enduring spirits of their goldens, Trixie and Anna.",
+        "description": "On his thirty-sixth birthday, Travis Cornell hikes into the foothills of the Santa Ana Mountains. But his path is soon blocked by a bedraggled Golden Retriever who will let him go no further into the dark woods.\r\n\r\nThat morning, Travis had been desperate to find some happiness in his lonely, seemingly cursed life. What he finds is a dog of alarming intelligence that soon leads him into a relentless storm of mankind's darkest creation....",
+        "genre": "Science Fiction",
+        "publisher": "Berkley",
+        "release_date": "May 6, 2008",
+        "rating": null,
+        "comments": "",
+        "price": "11.90"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 54,
+    "fields": {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51OZerWcGCL.jpg",
+        "author": "J.K. Rowling",
+        "bio": "J.K. Rowling is the author of the record-breaking, multi-award-winning Harry Potter novels. Loved by fans around the world, the series has sold more than 500 million copies, been translated into 80 languages and made into eight blockbuster films.\r\n\r\nShe has written three companion volumes in aid of charity: Quidditch Through the Ages and Fantastic Beasts and Where to Find Them (in aid of Comic Relief and Lumos), and The Tales of Beedle the Bard (in aid of Lumos).\r\n\r\nIn 2012, J.K. Rowling's digital company and digital publisher Pottermore was launched, a place where fans can enjoy the latest news from across the wizarding world, features and original writing by J.K. Rowling.\r\n\r\nHer first novel for adult readers, The Casual Vacancy, was published in September 2012 and adapted for TV by the BBC in 2015. J.K. Rowling also writes crime novels under the pseudonym Robert Galbraith, featuring private detective Cormoran Strike. The first four novels The Cuckoo's Calling (2013), The Silkworm (2014), Career of Evil (2015) and Lethal White (2018) all topped the national and international bestseller lists. The first three have been adapted for television, produced by Bront\u00eb Film and Television.\r\n\r\nJ.K. Rowling's 2008 Harvard commencement speech was published in 2015 as an illustrated book, Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination, and sold in aid of Lumos and university-wide financial aid at Harvard.\r\n\r\nIn 2016, J.K. Rowling collaborated with writer Jack Thorne and director John Tiffany on the stage play Harry Potter and the Cursed Child Parts One and Two, which is now running at The Palace Theatre in London's West End and at The Lyric Theatre on Broadway.\r\n\r\nAlso in 2016, J.K. Rowling made her screenwriting debut with the film Fantastic Beasts and Where to Find Them. A prequel to the Harry Potter series, this new adventure of Magizoologist Newt Scamander marked the start of a five-film series to be written by the author. The second film in the series, Fantastic Beasts: The Crimes of Grindelwald was released in November 2018.\r\n\r\nThe script book of the play Harry Potter and the Cursed Child Parts One and Two was published in 2016. The original screenplays of the Fantastic Beasts films are published too: Fantastic Beasts and Where to Find Them (2016) and Fantastic Beasts: The Crimes of Grindelwald (2018).\r\n\r\nAs well as receiving an OBE and Companion of Honour for services to children's literature, J.K. Rowling has received many awards and honours, including France's L\u00e9gion d'Honneur and the Hans Christian Andersen Award.",
+        "description": "Harry Potter's summer has included the worst birthday ever, doomy warnings from a house-elf called Dobby, and rescue from the Dursleys by his friend Ron Weasley in a magical flying car! Back at Hogwarts School of Witchcraft and Wizardry for his second year, Harry hears strange whispers echo through empty corridors - and then the attacks start. Students are found as though turned to stone... Dobby's sinister predictions seem to be coming true.",
+        "genre": "Science Fiction",
+        "publisher": "Scholastic",
+        "release_date": "July 1, 1999",
+        "rating": null,
+        "comments": "",
+        "price": "17.03"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 55,
+    "fields": {
+        "title": "The Killing Fog (The Grave Kingdom)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41SJKIH2%2BDL._SX331_BO1,204,203,200_.jpg",
+        "author": "Jeff Wheeler",
+        "bio": "Wall Street Journal bestselling author Jeff Wheeler took an early retirement from his career at Intel in 2014 to write full-time. He is a husband, father of five, and a devout member of The Church of Jesus Christ of Latter-day Saints. Jeff lives in the Rocky Mountains.\r\n\r\nTo learn more about each of his worlds, his advice for new writers, his e-zine Deep Magic, and which series to start reading first, check out his website! http://www.jeff-wheeler.com/",
+        "description": "Survivor of a combat school, the orphaned Bingmei belongs to a band of mercenaries employed by a local ruler. Now the nobleman, and collector of rare artifacts, has entrusted Bingmei and the skilled team with a treacherous assignment: brave the wilderness\u2019s dangers to retrieve the treasures of a lost palace buried in a glacier valley. But upsetting its tombs has a price.\r\n\r\nEchion, emperor of the Grave Kingdom, ruler of darkness, Dragon of Night, has long been entombed. Now Bingmei has unwittingly awakened him and is answerable to a legendary prophecy. Destroying the dark lord before he reclaims the kingdoms of the living is her inherited mission. Killing Bingmei before she fulfills it is Echion\u2019s.\r\n\r\nThrust unprepared into the role of savior, urged on by a renegade prince, and possessing a magic that is her destiny, Bingmei knows what she must do. But what must she risk to honor her ancestors? Bingmei\u2019s fateful choice is one that neither her friends nor her enemies can foretell, as Echion\u2019s dark war for control unfolds.",
+        "genre": "Science Fiction",
+        "publisher": "47North",
+        "release_date": "March 1, 2020",
+        "rating": null,
+        "comments": "",
+        "price": "10.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 56,
+    "fields": {
+        "title": "1984",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/410ZirPKXKL._SX331_BO1,204,203,200_.jpg",
+        "author": "George Orwell",
+        "bio": "GEORGE ORWELL (1903-1950) was born in India and served with the Imperial Police in Burma before joining the Republican Army in the Spanish Civil War. Orwell was the author of six novels as well as numerous essays and nonfiction works.",
+        "description": "Winston Smith toes the Party line, rewriting history to satisfy the demands of the Ministry of Truth. With each lie he writes, Winston grows to hate the Party that seeks power for its own sake and persecutes those who dare to commit thoughtcrimes. But as he starts to think for himself, Winston can\u2019t escape the fact that Big Brother is always watching...\r\n\r\nA startling and haunting novel, 1984 creates an imaginary world that is completely convincing from start to finish. No one can deny the novel\u2019s hold on the imaginations of whole generations, or the power of its admonitions\u2014a power that seems to grow, not lessen, with the passage of time.",
+        "genre": "Science Fiction",
+        "publisher": "Houghton Mifflin Harcourt",
+        "release_date": "April 4, 2017",
+        "rating": null,
+        "comments": "",
+        "price": "15.79"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 57,
+    "fields": {
+        "title": "Valkyrie (Expeditionary Force)",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41cGoeaICIL._SX331_BO1,204,203,200_.jpg",
+        "author": "Craig Alanson",
+        "bio": "Craig Alanson is a NYT best-selling author. His first audiobook 'Columbus Day' was one of five finalists for Audiobook Of The Year 2018\r\nVisit craigalanson.com for FAQs, blog posts, merchandise, etc.\r\nContact the author at craigalanson@gmail.com",
+        "description": "After saving the world many times, the Merry Band of Pirates have accepted the inevitable: Earth is doomed. All they can do is try to bring a few thousand people to safety, before vicious aliens arrive to destroy humanity's homeworld. No. There is one other thing they can do: hit the enemy so hard that the aliens will regret they ever heard of humans.",
+        "genre": "Science Fiction",
+        "publisher": "Independently published",
+        "release_date": "December 6, 2019",
+        "rating": null,
+        "comments": "",
+        "price": "9.95"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 58,
+    "fields": {
+        "title": "The Handmaid's Tale",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41etu1kXuHL._SX327_BO1,204,203,200_.jpg",
+        "author": "Margaret Atwood",
+        "bio": "MARGARET ATWOOD, whose work has been published in over forty countries, is the author of more than fifty books of fiction, poetry, and critical essays. In addition to The Handmaid's Tale, now a successful MGM-Hulu television series currently preparing its fourth season, her novels include Cat's Eye, shortlisted for the Booker Prize; Alias Grace, which won the Giller Prize in Canada and the Premio Mondello in Italy; The Blind Assassin, winner of the 2000 Booker Prize; Oryx and Crake, shortlisted for the 2003 Booker Prize; The Penelopiad; The Heart Goes Last; Hag-seed; and The Testaments, a sequel to The Handmaid's Tale, published in September, 2019. She lives in Toronto some of the time.",
+        "description": "The Handmaid\u2019s Tale is a novel of such power that the reader will be unable to forget its images and its forecast. Set in the near future, it describes life in what was once the United States and is now called the Republic of Gilead, a monotheocracy that has reacted to social unrest and a sharply declining birthrate by reverting to, and going beyond, the repressive intolerance of the original Puritans. The regime takes the Book of Genesis absolutely at its word, with bizarre consequences for the women and men in its population.\r\n\r\nThe story is told through the eyes of Offred, one of the unfortunate Handmaids under the new social order. In condensed but eloquent prose, by turns cool-eyed, tender, despairing, passionate, and wry, she reveals to us the dark corners behind the establishment\u2019s calm facade, as certain tendencies now in existence are carried to their logical conclusions. The Handmaid\u2019s Tale is funny, unexpected, horrifying, and altogether convincing. It is at once scathing satire, dire warning, and a tour de force. It is Margaret Atwood at her best.",
+        "genre": "Science Fiction",
+        "publisher": "Houghton Mifflin Harcourt; 2nd edition",
+        "release_date": "April 25, 2017",
+        "rating": null,
+        "comments": "",
+        "price": "15.99"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 59,
+    "fields": {
+        "title": "Provenance",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51HXlhyZVNL._SX336_BO1,204,203,200_.jpg",
+        "author": "Ann Leckie",
+        "bio": "Ann Leckie has worked as a waitress, a receptionist, a rodman on a land-surveying crew, a lunch lady, and a recording engineer. The author of many published short stories, and former secretary of the Science Fiction Writers of America, she lives in St. Louis, Missouri, with her husband, children, and cats.",
+        "description": "Though she knows her brother holds her mother's favor, Ingrid is determined to at least be considered as heir to the family name. She hatches an audacious plan--free a thief from a prison planet from which no one has ever returned, and use them to help steal back a priceless artifact.\r\n\r\nBut Ingray and her charge return to her home to find their planet in political turmoil, at the heart of an escalating interstellar conflict. Together, they must make a new plan to salvage Ingray's future and her world, before they are lost to her for good.\r\n\r\nIn the Ancillary world:\r\nAncillary Justice\r\nAncillary Sword\r\nAncillary Mercy\r\n\r\nProvenance",
+        "genre": "Science Fiction",
+        "publisher": "Orbit; First Edition edition",
+        "release_date": "September 26, 2017",
+        "rating": null,
+        "comments": "",
+        "price": "18.28"
+    }
+},
+{
+    "model": "book.book",
+    "pk": 60,
+    "fields": {
+        "title": "Blackwater: The Complete Saga",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/519gkmvxiLL._SX337_BO1,204,203,200_.jpg",
+        "author": "Michael McDowell",
+        "bio": "Michael McDowell was born June 1, 1950 in Enterprise, Alabama and attended public schools in southern Alabama until 1968. He graduated with a bachelor's degree and a master's degree in English from Harvard, and in 1978 he was awarded his Ph.D. in English and American Literature from Brandeis.\r\n\r\nHis seventh novel written and first to be sold, The Amulet, was published in 1979 and would be followed by over thirty additional volumes of fiction written under his own name or the pseudonyms Nathan Aldyne, Axel Young, Mike McCray, and Preston Macadam. His notable books include the Southern Gothic horror novel The Elementals (1981), the serial novel Blackwater (1983), which was first published in a series of six paperback volumes, and the trilogy of \"Jack & Susan\" books.\r\n\r\nBy 1985 he was writing screenplays for television, including episodes for a number of anthology series such as Tales from the Darkside, Amazing Stories, Alfred Hitchcock Presents, and Tales from the Crypt. He went on to write the screenplay for Tim Burton's Beetlejuice (1988) and The Nightmare Before Christmas (1993), as well as the script for Thinner (1996). McDowell died December 27, 1999 from AIDS-related illness. Tabitha King, wife of author Stephen King, completed an unfinished McDowell novel, Candles Burning, which was published in 2006.",
+        "description": "Blackwater is the saga of a small town, Perdido, Alabama, and Elinor Dammert, the stranger who arrives there under mysterious circumstances on Easter Sunday, 1919. On the surface, Elinor is gracious, charming, anxious to belong in Perdido, and eager to marry Oscar Caskey, the eldest son of Perdido\u2019s first family. But her beautiful exterior hides a shocking secret. Beneath the waters of the Perdido River, she turns into something terrifying, a creature whispered about in stories that have chilled the residents of Perdido for generations. Some of those who observe her rituals in the river will never be seen again ...\r\n\r\nOriginally published as a series of six volumes in 1983, Blackwater is the crowning achievement of Michael McDowell, author of the Southern Gothic classics Cold Moon Over Babylon and The Elementals and screenwriter of Beetlejuice and The Nightmare Before Christmas. This first-ever one-volume edition, with a new introduction by Shirley Jackson Award-winning author Nathan Ballingrud, marks Blackwater\u2019s first appearance in print in three decades and will allow a new generation of readers to discover this modern horror classic.",
+        "genre": "Science Fiction",
+        "publisher": "Valancourt Books",
+        "release_date": "October 2, 2017",
+        "rating": null,
+        "comments": "",
+        "price": "39.99"
+    }
+}
+]

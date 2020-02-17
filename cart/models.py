@@ -12,5 +12,18 @@ class CartItem(models.Model):
 
 
 class Cart(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    items = models.ManyToManyField(CartItem)
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    items = models.ManyToManyField(CartItem, blank=True)
+
+    @classmethod
+    def create(cls, user):
+        cart = cls(user=user)
+        return cart
+
+
+def has_cart(user):
+    carts = Cart.objects.all()
+    for cart in carts:
+        if user == cart.user:
+            return True
+    return False

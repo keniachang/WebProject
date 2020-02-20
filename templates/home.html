@@ -1,10 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Hello {{ username }},</h1>
-    <p>
-        Welcome to Gsix Digital Bookstore!
-    </p>
-    <a href="{% url 'books' %}">Let's jump into the world of books</a>
+    <br \>
+    <br \>
+<!--    <div class="container">-->
+<!--        <div class="col-md-12">-->
+<!--            <h1>Hello {{ username }},</h1>-->
+<!--            <p>-->
+<!--                Welcome to Gsix Digital Bookstore!-->
+<!--            </p>-->
+<!--            <a href="{% url 'books' %}">Let's jump into the world of books</a>-->
+<!--        </div>-->
+<!--    </div>-->
 
+    <div style="text-align: center;">
+        <h1>Hello {{ username }},</h1>
+        <p>
+            Welcome to Gsix Digital Bookstore!
+        </p>
+        <a href="{% url 'books' %}">Let's jump into the world of books</a>
+    </div>
 {% endblock %}

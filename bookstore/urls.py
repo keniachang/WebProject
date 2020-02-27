@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name='home'),
     path('books/', book_detail_view, name='books'),
-    path('cart/', cart_view, name='cart')
+    path('cart/', cart_view, name='cart'),
+    # path('comment/', comment_view, name='comment')
 ]

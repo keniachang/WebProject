@@ -1,2 +1,29 @@
 [
+{
+    "model": "cart.cart",
+    "pk": 1,
+    "fields": {
+        "user": 2
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 1,
+    "fields": {
+        "item": 14,
+        "cart": 1,
+        "quantity": 1,
+        "save_for_later": false
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 2,
+    "fields": {
+        "item": 16,
+        "cart": 1,
+        "quantity": 1,
+        "save_for_later": false
+    }
+}
 ]

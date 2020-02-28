@@ -17,7 +17,7 @@ def cart_view(request):
         cart = Cart.create(user)
 
     try:
-        items = cart.items.all()
+        items = cart.cartitem_set.all()
         is_saved_empty = cart.is_saved_empty()
     except:
         items = []

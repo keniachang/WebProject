@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
           integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    
 
     <title>GSix Bookstore</title>
 
@@ -20,24 +19,23 @@
             </a>
 
             <!-- TODO: Change href to to a normal user login page -->
-<!--            <a href="/admin">-->
-<!--                <button type="button" class="btn btn-primary btn-sm">Login</button>-->
-<!--            </a>-->
+            <!--            <a href="/admin">-->
+            <!--                <button type="button" class="btn btn-primary btn-sm">Login</button>-->
+            <!--            </a>-->
 
             <a href="/cart" class="btn btn-info btn-sm">
-<!--                <i class="fas fa-shopping-cart fa-lg"></i>-->
+                <!--                <i class="fas fa-shopping-cart fa-lg"></i>-->
                 <span class="fas fa-shopping-cart fa-lg"> Cart</span>
             </a>
         </div>
     </div>
 </head>
 <body>
-
     {% if messages %}
         {% for message in messages %}
-            <div class="alert alert-{{ message.tags }}">
-                {{ message }}
-            </div>
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
         {% endfor %}
     {% endif %}
 
@@ -52,6 +50,7 @@
             integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
             crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </body>
 </html>

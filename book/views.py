@@ -9,3 +9,4 @@ def book_detail_view(request):
         'books': books
     }
     return render(request, "books.html", books_context)
+

@@ -19,11 +19,14 @@ from pages.views import home_view
 from book.views import book_detail_view
 from cart.views import cart_view
 
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name='home'),
     path('books/', book_detail_view, name='books'),
     path('cart/', cart_view, name='cart'),
     path('', include('user.urls'), name='register'),
-    path('' , include('user.urls'), name='profile')
+    path('' , include('user.urls'), name='profile'),
+    path('comment/', comment_view, name='comment')
 ]

@@ -18,8 +18,7 @@ from django.urls import path
 from pages.views import home_view
 from book.views import book_detail_view
 from cart.views import cart_view
-
-
+from comment.views import comment_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),

@@ -27,5 +27,6 @@ urlpatterns = [
     path('cart/', cart_view, name='cart'),
     path('', include('user.urls'), name='register'),
     path('', include('user.urls'), name='profile'),
-    path('comment/', comment_view, name='comment')
+    path('comment/', comment_view, name='comment'),
+    path('bookdetail/',  name='books'),
 ]

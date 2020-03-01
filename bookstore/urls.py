@@ -23,7 +23,7 @@ from comment.views import comment_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name='home'),
-    path('books/', book_detail_view, name='books'),
+    path('books/bookdetail', book_detail_view, name='books'),
     path('cart/', cart_view, name='cart'),
     path('', include('user.urls'), name='register'),
     path('', include('user.urls'), name='profile'),

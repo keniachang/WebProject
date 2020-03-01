@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Details</title>
+</head>
+<body>
+
+<h1> Book Detail </h1>
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for book in books %}
+    <p>
+        Title: {{book.title}}<br />
+        <img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
+        Author: {{book.author}}<br />
+
+
+         <a href="/cart" class="btn btn-info btn-sm">
+                <!--                <i class="fas fa-shopping-cart fa-lg"></i>-->
+                <span class="fas fa-shopping-cart fa-lg"> Details </span>
+            </a>
+
+    </p>
+    {% endfor %}
+{% endblock %}
+</body>
+</html>

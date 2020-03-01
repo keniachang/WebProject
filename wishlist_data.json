@@ -1,72 +1,72 @@
 [
 {
     "model": "wishlist.bigwishlist",
-    "pk": 14,
+    "pk": 1,
     "fields": {
         "user": 1
     }
 },
 {
     "model": "wishlist.bigwishlist",
-    "pk": 15,
+    "pk": 2,
     "fields": {
         "user": 2
     }
 },
 {
     "model": "wishlist.smallwishlist",
-    "pk": 48,
+    "pk": 1,
     "fields": {
         "name": "one",
-        "list": 15
+        "list": 2
     }
 },
 {
     "model": "wishlist.smallwishlist",
-    "pk": 49,
+    "pk": 2,
     "fields": {
         "name": "two",
-        "list": 15
+        "list": 2
     }
 },
 {
     "model": "wishlist.smallwishlist",
-    "pk": 50,
+    "pk": 3,
     "fields": {
         "name": "three",
-        "list": 15
+        "list": 2
     }
 },
 {
     "model": "wishlist.smallwishlist",
-    "pk": 51,
+    "pk": 4,
     "fields": {
         "name": "four",
-        "list": 14
+        "list": 1
     }
 },
 {
     "model": "wishlist.wishlistitem",
-    "pk": 21,
+    "pk": 1,
     "fields": {
         "item": 48,
-        "wishlist": 48
+        "wishlist": 1
     }
 },
 {
     "model": "wishlist.wishlistitem",
-    "pk": 22,
+    "pk": 2,
     "fields": {
         "item": 43,
-        "wishlist": 49
+        "wishlist": 2
     }
 },
 {
     "model": "wishlist.wishlistitem",
-    "pk": 23,
+    "pk": 3,
     "fields": {
         "item": 52,
-        "wishlist": 50
+        "wishlist": 3
     }
 }
 ]

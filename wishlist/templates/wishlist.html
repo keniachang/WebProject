@@ -5,7 +5,7 @@
     </div>
         {% for small in wishlist.smallwishlist_set.all %}
             <p>{{ small.name }}</p>
-             {% for book in small.wlitem_set.all %}
+             {% for book in small.wishlistitem_set.all %}
                 <p>{{ book.item.title }}</p>
              {% endfor %}
         {% endfor %}

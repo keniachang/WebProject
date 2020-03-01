@@ -28,5 +28,5 @@ urlpatterns = [
     path('', include('user.urls'), name='register'),
     path('', include('user.urls'), name='profile'),
     path('comment/', comment_view, name='comment'),
-    path('bookdetail/', bookdetail_view, name = 'bookdetail'),
+    path('bookdetail/', bookdetail_view, name='bookdetail'),
 ]

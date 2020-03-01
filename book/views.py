@@ -10,3 +10,6 @@ def book_detail_view(request):
     }
     return render(request, "books.html", books_context)
 
+
+def bookdetail_view(request):
+    return render(request, 'book/bookdetail.html')

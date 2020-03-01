@@ -12,4 +12,4 @@ def book_detail_view(request):
 
 
 def bookdetail_view(request):
-    return render(request, 'book/bookdetail.html')
+    return render(request, 'bookdetail.html')

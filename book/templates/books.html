@@ -19,4 +19,14 @@
 </body>
 </html>
 
+{% extends 'base.html' %}
 
+{% block content %}
+    {% for book in books %}
+    <p>
+        Title: {{book.title}}<br />
+        <img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
+        Author: {{book.author}}<br />
+    </p>
+    {% endfor %}
+{% endblock %}

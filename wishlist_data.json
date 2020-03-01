@@ -1,120 +1,72 @@
 [
 {
     "model": "wishlist.bigwishlist",
-    "pk": 10,
+    "pk": 14,
     "fields": {
         "user": 1
     }
 },
 {
     "model": "wishlist.bigwishlist",
-    "pk": 11,
+    "pk": 15,
     "fields": {
         "user": 2
     }
 },
 {
     "model": "wishlist.smallwishlist",
-    "pk": 32,
+    "pk": 48,
     "fields": {
         "name": "one",
-        "list": 11
+        "list": 15
     }
 },
 {
     "model": "wishlist.smallwishlist",
-    "pk": 34,
+    "pk": 49,
     "fields": {
-        "name": "hype",
-        "list": 11
+        "name": "two",
+        "list": 15
     }
 },
 {
     "model": "wishlist.smallwishlist",
-    "pk": 35,
+    "pk": 50,
+    "fields": {
+        "name": "three",
+        "list": 15
+    }
+},
+{
+    "model": "wishlist.smallwishlist",
+    "pk": 51,
     "fields": {
         "name": "four",
-        "list": 10
+        "list": 14
     }
 },
 {
     "model": "wishlist.wishlistitem",
-    "pk": 11,
+    "pk": 21,
     "fields": {
-        "item": 10,
-        "wishlist": 34
+        "item": 48,
+        "wishlist": 48
     }
 },
 {
     "model": "wishlist.wishlistitem",
-    "pk": 12,
+    "pk": 22,
     "fields": {
-        "item": 1,
-        "wishlist": 32
+        "item": 43,
+        "wishlist": 49
     }
 },
 {
     "model": "wishlist.wishlistitem",
-    "pk": 13,
+    "pk": 23,
     "fields": {
-        "item": 6,
-        "wishlist": 32
-    }
-},
-{
-    "model": "wishlist.wishlistitem",
-    "pk": 14,
-    "fields": {
-        "item": 14,
-        "wishlist": 32
-    }
-},
-{
-    "model": "wishlist.wishlistitem",
-    "pk": 15,
-    "fields": {
-        "item": 20,
-        "wishlist": 32
-    }
-},
-{
-    "model": "wishlist.wishlistitem",
-    "pk": 16,
-    "fields": {
-        "item": 3,
-        "wishlist": 32
-    }
-},
-{
-    "model": "wishlist.wishlistitem",
-    "pk": 17,
-    "fields": {
-        "item": 29,
-        "wishlist": 32
-    }
-},
-{
-    "model": "wishlist.wishlistitem",
-    "pk": 18,
-    "fields": {
-        "item": 28,
-        "wishlist": 32
-    }
-},
-{
-    "model": "wishlist.wishlistitem",
-    "pk": 19,
-    "fields": {
-        "item": 57,
-        "wishlist": 32
-    }
-},
-{
-    "model": "wishlist.wishlistitem",
-    "pk": 20,
-    "fields": {
-        "item": 55,
-        "wishlist": 32
+        "item": 52,
+        "wishlist": 50
     }
 }
 ]

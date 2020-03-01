@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div align = "center">
+        <h1>Wishlist</h1>
+    </div>
+        {% for small in wishlist.smallwishlist_set.all %}
+            <p>{{ small.name }}</p>
+             {% for book in small.wlitem_set.all %}
+                <p>{{ book.item.title }}</p>
+             {% endfor %}
+        {% endfor %}
+{% endblock %}

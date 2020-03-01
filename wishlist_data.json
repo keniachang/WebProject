@@ -1,0 +1,120 @@
+[
+{
+    "model": "wishlist.bigwishlist",
+    "pk": 10,
+    "fields": {
+        "user": 1
+    }
+},
+{
+    "model": "wishlist.bigwishlist",
+    "pk": 11,
+    "fields": {
+        "user": 2
+    }
+},
+{
+    "model": "wishlist.smallwishlist",
+    "pk": 32,
+    "fields": {
+        "name": "one",
+        "list": 11
+    }
+},
+{
+    "model": "wishlist.smallwishlist",
+    "pk": 34,
+    "fields": {
+        "name": "hype",
+        "list": 11
+    }
+},
+{
+    "model": "wishlist.smallwishlist",
+    "pk": 35,
+    "fields": {
+        "name": "four",
+        "list": 10
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 11,
+    "fields": {
+        "item": 10,
+        "wishlist": 34
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 12,
+    "fields": {
+        "item": 1,
+        "wishlist": 32
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 13,
+    "fields": {
+        "item": 6,
+        "wishlist": 32
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 14,
+    "fields": {
+        "item": 14,
+        "wishlist": 32
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 15,
+    "fields": {
+        "item": 20,
+        "wishlist": 32
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 16,
+    "fields": {
+        "item": 3,
+        "wishlist": 32
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 17,
+    "fields": {
+        "item": 29,
+        "wishlist": 32
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 18,
+    "fields": {
+        "item": 28,
+        "wishlist": 32
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 19,
+    "fields": {
+        "item": 57,
+        "wishlist": 32
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 20,
+    "fields": {
+        "item": 55,
+        "wishlist": 32
+    }
+}
+]

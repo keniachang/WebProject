@@ -38,6 +38,12 @@ def cart_view(request):
             cart_item = CartItem.objects.get(pk=item_id)
             cart_item.save_for_later = True
             cart_item.save(update_fields=['save_for_later'])
+
+        cart_item_ids = request.POST.getlist('unsaved')
+        for item_id in cart_item_ids:
+            cart_item = CartItem.objects.get(pk=item_id)
+            cart_item.save_for_later = False
+            cart_item.save(update_fields=['save_for_later'])
         return HttpResponseRedirect("/cart")
 
     return render(request, "cart.html", items_context)

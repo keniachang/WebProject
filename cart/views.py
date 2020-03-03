@@ -39,6 +39,12 @@ def cart_view(request):
             cart_item.save_for_later = True
             cart_item.save(update_fields=['save_for_later'])
 
+        quantities = request.POST.getlist('quantity')
+        # print(quantities)
+        for i, cart_item in enumerate(items):
+            cart_item.quantity = quantities[i]
+            cart_item.save(update_fields=['quantity'])
+
         cart_item_ids = request.POST.getlist('unsaved')
         for item_id in cart_item_ids:
             cart_item = CartItem.objects.get(pk=item_id)

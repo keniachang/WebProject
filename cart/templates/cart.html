@@ -5,7 +5,6 @@
 
 {% block content %}
     <!-- TODO: logged-in user can add books to his/her cart when browsing books -->
-    <!-- TODO: user can change the quantity of the item -->
     <!-- TODO: user can remove the item from his/her cart -->
 
     <!-- Display shopping cart details -->
@@ -27,7 +26,9 @@
                     {% if cart_item.save_for_later is False %}
                         <tr>
                             <td>{{cart_item.item.title}}</td>
-                            <td>{{cart_item.quantity}}</td>
+                            <td>
+                                <input type="number" name="quantity" min="1" max="999" step="1" value="{{ cart_item.quantity }}">
+                            </td>
                             <td>$ {{cart_item.cost}}</td>
                             <td>
                                 <input type="checkbox" name="saves" value="{{ cart_item.id }}">
@@ -37,7 +38,7 @@
                 {% endfor %}
                 <tr align="right">
                     <td colspan="4" align="right">
-                        <button type="submit">Save For Later</button>
+                        <button type="submit">Save Changes</button>
                     </td>
                 </tr>
             </form>

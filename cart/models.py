@@ -49,3 +49,12 @@ def has_cart(user):
         if user == cart.user:
             return True
     return False
+
+
+# Calculate the subtotal
+def total(cart_items):
+    subtotal = 0
+    for cart_item in cart_items:
+        if cart_item.save_for_later is False:
+            subtotal += cart_item.cost
+    return subtotal

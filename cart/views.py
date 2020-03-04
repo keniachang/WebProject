@@ -1,9 +1,7 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
-from .models import Cart
-from .models import has_cart
-from .models import CartItem
+from .models import Cart, CartItem, has_cart, total
 
 
 # TODO: change the login_url to the normal user login page
@@ -25,10 +23,13 @@ def cart_view(request):
 
     is_empty_cart = cart.is_cart_empty()
 
+    subtotal = total(items)
+
     items_context = {
         'items': items,
         'is_saved_empty': is_saved_empty,
-        'is_empty_cart': is_empty_cart
+        'is_empty_cart': is_empty_cart,
+        'subtotal': subtotal
     }
 
     if request.method == 'POST':
@@ -41,9 +42,13 @@ def cart_view(request):
 
         quantities = request.POST.getlist('quantity')
         # print(quantities)
-        for i, cart_item in enumerate(items):
-            cart_item.quantity = quantities[i]
-            cart_item.save(update_fields=['quantity'])
+        if quantities:
+            i = 0
+            for cart_item in items:
+                if cart_item.save_for_later is False:
+                    cart_item.quantity = quantities[i]
+                    cart_item.save(update_fields=['quantity'])
+                    i += 1
 
         cart_item_ids = request.POST.getlist('unsaved')
         for item_id in cart_item_ids:

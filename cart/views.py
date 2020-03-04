@@ -50,6 +50,12 @@ def cart_view(request):
                     cart_item.save(update_fields=['quantity'])
                     i += 1
 
+        cart_item_ids = request.POST.getlist('remove')
+        if cart_item_ids:
+            for item_id in cart_item_ids:
+                cart_item = CartItem.objects.get(pk=item_id)
+                cart_item.delete()
+
         cart_item_ids = request.POST.getlist('unsaved')
         for item_id in cart_item_ids:
             cart_item = CartItem.objects.get(pk=item_id)

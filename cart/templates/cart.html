@@ -5,8 +5,6 @@
 <!-- TODO: logged-in user can add books to his/her cart when browsing books -->
 
 {% block content %}
-    <!-- TODO: user can remove the item from his/her cart -->
-
     <!-- Display shopping cart details -->
     <div align="center" style="color: steelblue">
         <h1>My Shopping Cart</h1>
@@ -18,6 +16,7 @@
                 <th scope="col">Quantity</th>
                 <th scope="col">Price</th>
                 <th scope="col">Save For Later?</th>
+                <th scope="col">Remove?</th>
             </tr>
         </thead>
         {% if is_empty_cart is False %}
@@ -33,6 +32,9 @@
                                 <td>$ {{cart_item.cost}}</td>
                                 <td>
                                     <input type="checkbox" name="saves" value="{{ cart_item.id }}">
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="remove" value="{{ cart_item.id }}">
                                 </td>
                             </tr>
                         {% endif %}

@@ -10,8 +10,7 @@
 
                 <!-- button for add to cart -->
                 <form action="#" method="get">
-                    <label for="addButton">Add To Cart</label>
-                    <input type="submit" id="addButton" class="btn" name="addToCart" value="{{ book.item.id }}">
+                    <button type="submit" class="btn btn-primary" name="addToCart" value="{{ book.item.id }}">Add To Cart</button>
                 </form>
 
              {% endfor %}

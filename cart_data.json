@@ -7,10 +7,17 @@
     }
 },
 {
-    "model": "cart.cartitem",
-    "pk": 1,
+    "model": "cart.cart",
+    "pk": 2,
     "fields": {
-        "item": 14,
+        "user": 1
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 5,
+    "fields": {
+        "item": 16,
         "cart": 1,
         "quantity": 1,
         "save_for_later": false
@@ -18,9 +25,9 @@
 },
 {
     "model": "cart.cartitem",
-    "pk": 2,
+    "pk": 6,
     "fields": {
-        "item": 16,
+        "item": 14,
         "cart": 1,
         "quantity": 1,
         "save_for_later": false

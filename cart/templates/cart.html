@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 
 <!-- TODO: user can access his/her cart from any page? (make sure all pages extends base.html) -->
-<!-- TODO: every user has his/her own cart created when account created? -->
 <!-- TODO: logged-in user can add books to his/her cart when browsing books -->
 
 {% block content %}
@@ -60,6 +59,20 @@
             </p>
         </div>
     {% endif %}
+
+    <!-- add book to cart by book name -->
+    <br \>
+    <br \>
+    <div align="center" style="color: steelblue">
+        <h4>Add A Book To Cart By Book Name</h4>
+    </div>
+    <form action="#" method="get">
+        <label for="bname">Book name:</label>
+        <input type="text" id="bname" name="addToCart" value="{{ book.item.title }}">
+        <input type="submit" value="Submit">
+    </form>
+    <br \>
+    <br \>
 
     <!-- separate cart's table and save-for-later table -->
     <br \>

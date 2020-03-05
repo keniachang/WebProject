@@ -7,6 +7,13 @@
             <p>{{ small.name }}</p>
              {% for book in small.wishlistitem_set.all %}
                 <p>{{ book.item.title }}</p>
+
+                <!-- button for add to cart -->
+                <form action="#" method="get">
+                    <label for="addButton">Add To Cart</label>
+                    <input type="submit" id="addButton" class="btn" name="addToCart" value="{{ book.item.id }}">
+                </form>
+
              {% endfor %}
         {% endfor %}
 {% endblock %}

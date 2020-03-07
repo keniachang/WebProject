@@ -15,11 +15,11 @@
     <h1>{{ title }}</h1>
     </div>
     <div align="center" style="...">
-    <form>
+    <form action= "/comment/" method="POST">{% csrf_token %}
         <label for="comment">Comment:</label><br><br>
-        <input type="text" id="comment" name="comment" size="100"><br><br>
+        <input type="text" id="comment" name="comment" size="100" value="{{ comment }}"><br><br>
         <label for="rating">Rating (between 0 and 5):</label><br><br>
-        <input type="range" id="rating" name="rating" min="0" max="5"><br>
+        <input type="range" id="rating" name="rating" min="0" max="5" value="{{ rating }}"><br>
         <p>Would you like to leave your name?</p>
         <input type="radio" id="Yes" name="nickname" value="Yes">
         <label for="Yes">Yes</label><br>

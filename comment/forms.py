@@ -5,7 +5,7 @@ from book.models import Book
 class CommentForm(forms.ModelForm):
     #nickname_choice = [(Yes, 'Yes'), (No, 'No')]
 
-    nickname = forms.BooleanField(label='Leave Nickname?')
+    nickname = forms.BooleanField(required=False, label='Leave Nickname?')
 
     class Meta:
         model = Book

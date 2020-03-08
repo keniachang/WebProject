@@ -1,3 +1,4 @@
+from django.http import HttpResponseRedirect
 from django.http import HttpResponse
 from django.shortcuts import render
 from book.models import Book
@@ -34,7 +35,7 @@ def comment_view(request):
            obj.comments = comment
         form = CommentForm()
         obj.save()
-
+        return HttpResponseRedirect("/comment")
         #return HttpResponse('/thanks/')
 
 

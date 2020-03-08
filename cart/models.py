@@ -23,12 +23,6 @@ class Cart(models.Model):
                     return False
         return True
 
-    # Create empty cart for user with no cart yet
-    @classmethod
-    def create(cls, user):
-        cart = cls(user=user)
-        return cart
-
 
 class CartItem(models.Model):
     item = models.ForeignKey(Book, on_delete=models.CASCADE)

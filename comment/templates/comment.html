@@ -1,21 +1,31 @@
-<!-- TODO display name of user making comment-->
+
 <!-- TODO add picture of book that is being rated-->
-<!-- TODO add larger block of text for comment-->
 <!-- TODO verify that user owns the book-->
 <!-- TODO limit length of comment so it fits half the available space-->
 <!-- TODO add hover over of picture to display the name of the book-->
-<!-- TODO make the submit button update information about the book-->
-<!-- test of new branch -->
+
 
 {% extends 'base.html' %}
 
 {% block content %}
     <div align="center" style="color: steelblue">
     <h1>Comment and Rating</h1>
-    <h1>{{ title }}</h1>
+    <h1>{{ object.title }}</h1>
+
+    <h3>Hello {{ user.username }}, please leave a comment and rating below</h3>
     </div>
     <div align="center" style="...">
-    <form action= "/comment/" method="POST">{% csrf_token %}
+    <form method="POST"> {% csrf_token %}
+    {{ form.as_p }}
+
+    <input type="submit" value="Submit">
+    </form>
+
+    </div>
+{% endblock %}
+
+<!--
+        <img src="{{ object.cover }}" alt="{{ object.title }}">
         <label for="comment">Comment:</label><br><br>
         <input type="text" id="comment" name="comment" size="100" value="{{ comment }}"><br><br>
         <label for="rating">Rating (between 0 and 5):</label><br><br>
@@ -25,9 +35,9 @@
         <label for="Yes">Yes</label><br>
         <input type="radio" id="No" name="nickname" value="No">
         <label for="No">No</label><br><br>
-        <input type="submit" value="Submit">
-
-    </form>
-
-    </div>
-{% endblock %}
+        <p>would you like to leave your nickname?</p>
+        <input type="radio" id="Yes" name="nickname" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="No" name="nickname" value="No">
+        <label for="No">No</label><br><br>
+--!>

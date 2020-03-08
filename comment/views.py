@@ -1,34 +1,47 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from book.models import Book
-from user.models import Profile
-from .forms import CommentForm
+from .forms import CommentForm, RawCommentForm
+from django import template
+
+#register = template.Library()
+
+#@register.filter
+#def addstr(arg1, arg2):
+#    return str(arg1) + str(arg2)
 
 # Create your views here.
 def comment_view(request):
-   form = CommentForm(request.POST or None)
+    obj = Book.objects.get(id=10)
+    user = request.user
+    form = CommentForm(request.POST or None, instance=obj)
     context = {
-
-        'form': form
+        'object': obj,
+        'form': form,
+        'user': user
     }
 
-    if request.method == 'POST':
-        form = CommentForm(request.POST)
-        if form.is_valid():
-            comment = form.cleaned_data['comment']
-            rating = form.cleaned_data['rating']
 
-            if nickname:
-                comment.append(nickname)
+    if form.is_valid():
+        obj.comment = form.cleaned_data['comments']
+        #comment = form.cleaned_data['comments']
+        obj.rating = form.cleaned_data['rating']
+        nickname = form.cleaned_data['nickname']
 
-            return HttpResponse('/thanks/')
-    else:
+        #if nickname == True:
+        #    obj.comments = comment + " - " + request.user
+        #else:
+        #   obj.comments = comment
         form = CommentForm()
+        obj.save()
+
+        #return HttpResponse('/thanks/')
+
 
 
     return render(request, "comment.html", context)
 
- #obj = Book.objects.get(id=1)
+
     #user = Profile.objects.get(id=1)
     #'title': obj.title,
         #'cover': obj.cover,

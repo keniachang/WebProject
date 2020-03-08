@@ -23,15 +23,15 @@ def comment_view(request):
 
 
     if form.is_valid():
-        obj.comment = form.cleaned_data['comments']
-        #comment = form.cleaned_data['comments']
+        #obj.comment = form.cleaned_data['comments']
+        comment = form.cleaned_data['comments']
         obj.rating = form.cleaned_data['rating']
         nickname = form.cleaned_data['nickname']
 
-        #if nickname == True:
-        #    obj.comments = comment + " - " + request.user
-        #else:
-        #   obj.comments = comment
+        if nickname == True:
+            obj.comments = comment + " - nicknamehere"
+        else:
+           obj.comments = comment
         form = CommentForm()
         obj.save()
 

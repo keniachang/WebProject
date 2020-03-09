@@ -4,10 +4,31 @@
         <h1>Wishlist</h1>
     </div>
         {% for small in wishlist.smallwishlist_set.all %}
-            <p>{{ small.name }}</p>
-             {% for book in small.wishlistitem_set.all %}
-                <p>{{ book.item.title }}</p>
-                <p>remove</p>>
-             {% endfor %}
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>{{ small.name }}</th>
+                        <th style="width:200px">Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                 <form method="POST"> {% csrf_token %}
+                    <tr>
+                    {% for book in small.wishlistitem_set.all %}
+                        <td>{{ book.item.title }}</td>
+                        <td>
+                         <input type="radio" id="remove" name="remove" value="{{book.id}}">
+                            <label for="remove">remove</label><br>
+                        </td>
+                    </tr>
+                </tbody>
+                     {% endfor %}
+            </table>
         {% endfor %}
+        <div align="right">
+                    <td align="right">
+                        <button type="submit">Save</button>
+                    </td>
+                </div>
+            </form>
 {% endblock %}

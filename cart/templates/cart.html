@@ -13,7 +13,7 @@
             <tr>
                 <th scope="col">Book</th>
                 <th scope="col">Quantity</th>
-                <th scope="col">Price</th>
+                <th scope="col">Price(x1)</th>
                 <th scope="col">Save For Later?</th>
                 <th scope="col">Remove?</th>
             </tr>
@@ -28,7 +28,7 @@
                                 <td>
                                     <input type="number" name="quantity" min="1" max="999" step="1" value="{{ cart_item.quantity }}">
                                 </td>
-                                <td>$ {{cart_item.cost}}</td>
+                                <td>$ {{cart_item.item.price}}</td>
                                 <td>
                                     <input type="checkbox" name="saves" value="{{ cart_item.id }}">
                                 </td>
@@ -89,7 +89,7 @@
             <tr>
                 <th scope="col">Book</th>
                 <th scope="col">Quantity</th>
-                <th scope="col">Price</th>
+                <th scope="col">Price(x1)</th>
                 <th scope="col">Move To Cart?</th>
             </tr>
         </thead>
@@ -100,7 +100,7 @@
                         <tr>
                             <td>{{cart_item.item.title}}</td>
                             <td>{{cart_item.quantity}}</td>
-                            <td>$ {{cart_item.cost}}</td>
+                            <td>$ {{cart_item.item.price}}</td>
                             <td>
                                 <input type="checkbox" name="unsaved" value="{{ cart_item.id }}">
                             </td>

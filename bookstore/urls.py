@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from pages.views import home_view
-from book.views import book_detail_view, bookdetail_view
+from book.views import book_detail_view
 from cart.views import cart_view
 from comment.views import comment_view
+from wishlist.views import wishlist_view
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name='home'),
@@ -27,5 +29,5 @@ urlpatterns = [
     path('', include('user.urls'), name='register'),
     path('', include('user.urls'), name='profile'),
     path('comment/', comment_view, name='comment'),
-    path('bookdetail/', bookdetail_view, name='bookdetail'),
+    path('wishlist/', wishlist_view, name='wishlist')
 ]

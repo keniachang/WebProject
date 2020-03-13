@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div align = "center">
+        <h1>Wishlist</h1>
+    </div>
+    <form method="POST"> {% csrf_token %}
+        {% for small in bigwishlist.smallwishlist_set.all %}
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>{{small.name}}</th>
+                        <th style="width:200px">Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for book in small.wishlistitem_set.all %}
+                        <tr>
+                            <td>{{ book.item.title }}</td>
+                            <td>
+                             <input type="radio" id="remove" name="remove" value="{{book.id}}">
+                                <label for="remove">Remove</label><br>
+                             <input type="radio" id="move1" name="move1" value="{{book.id}}">
+                                <label for="move1">Move to 1st Wishlist</label><br>
+                             <input type="radio" id="move2" name="move2" value="{{book.id}}">
+                                <label for="move2">Move to 2nd Wishlist</label><br>
+                             <input type="radio" id="move3" name="move3" value="{{book.id}}">
+                                <label for="move3">Move to 3rd Wishlist</label><br>
+                             <input type="radio" id="cart" name="cart" value="{{book.item.id}}">
+                                <label for="cart">Move to Cart</label><br>
+<!--                             <form action="#" method="get">-->
+<!--                                <button type="submit" class="btn btn-primary btn-sm" name="addToCart" value="{{ book.item.id }}">Move To Cart</button>-->
+<!--                             </form>-->
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endfor %}
+        <div align="right">
+            <button type="submit">Save</button>
+        </div>
+    </form>
+{% endblock %}

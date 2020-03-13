@@ -23,12 +23,6 @@ class Cart(models.Model):
                     return False
         return True
 
-    # Create empty cart for user with no cart yet
-    @classmethod
-    def create(cls, user):
-        cart = cls(user=user)
-        return cart
-
 
 class CartItem(models.Model):
     item = models.ForeignKey(Book, on_delete=models.CASCADE)
@@ -49,3 +43,12 @@ def has_cart(user):
         if user == cart.user:
             return True
     return False
+
+
+# Calculate the subtotal
+def total(cart_items):
+    subtotal = 0
+    for cart_item in cart_items:
+        if cart_item.save_for_later is False:
+            subtotal += cart_item.cost
+    return subtotal

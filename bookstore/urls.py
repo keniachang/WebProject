@@ -31,6 +31,5 @@ urlpatterns = [
     path('', include('user.urls'), name='profile'),
     path('comment/', comment_view, name='comment'),
     path('wishlist/', wishlist_view, name='wishlist'),
-    path('books/bookdetail/', bookdetail_view, name='bookdetail'),
-
+    path('books/bookdetail/', bookdetail_view, name='bookdetail')
 ]

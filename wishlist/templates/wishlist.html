@@ -3,16 +3,16 @@
     <div align = "center">
         <h1>Wishlist</h1>
     </div>
-    {% for small in bigwishlist.smallwishlist_set.all %}
-        <table class="table">
-            <thead class="thead-dark">
-                <tr>
-                    <th>{{small.name}}</th>
-                    <th style="width:200px">Options</th>
-                </tr>
-            </thead>
-            <tbody>
-                <form method="POST"> {% csrf_token %}
+    <form method="POST"> {% csrf_token %}
+        {% for small in bigwishlist.smallwishlist_set.all %}
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>{{small.name}}</th>
+                        <th style="width:200px">Options</th>
+                    </tr>
+                </thead>
+                <tbody>
                     {% for book in small.wishlistitem_set.all %}
                         <tr>
                             <td>{{ book.item.title }}</td>
@@ -30,13 +30,11 @@
                             </td>
                         </tr>
                     {% endfor %}
-                    <div align="right">
-                        <td align="right">
-                            <button type="submit">Save</button>
-                        </td>
-                    </div>
-                </form>
-            </tbody>
-        </table>
-    {% endfor %}
+                </tbody>
+            </table>
+            <div align="right">
+                <button type="submit">Save</button>
+            </div>
+        {% endfor %}
+    </form>
 {% endblock %}

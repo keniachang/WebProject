@@ -1,13 +1,9 @@
 {% extends 'base.html' %}
 
 <!-- TODO: user can access his/her cart from any page? (make sure all pages extends base.html) -->
-<!-- TODO: every user has his/her own cart created when account created? -->
+<!-- TODO: logged-in user can add books to his/her cart when browsing books -->
 
 {% block content %}
-    <!-- TODO: logged-in user can add books to his/her cart when browsing books -->
-    <!-- TODO: user can change the quantity of the item -->
-    <!-- TODO: user can remove the item from his/her cart -->
-
     <!-- Display shopping cart details -->
     <div align="center" style="color: steelblue">
         <h1>My Shopping Cart</h1>
@@ -17,32 +13,43 @@
             <tr>
                 <th scope="col">Book</th>
                 <th scope="col">Quantity</th>
-                <th scope="col">Price</th>
+                <th scope="col">Price(x1)</th>
                 <th scope="col">Save For Later?</th>
+                <th scope="col">Remove?</th>
             </tr>
         </thead>
-        <tbody>
-            <form method="POST"> {% csrf_token %}
-                {% for cart_item in items %}
-                    {% if cart_item.save_for_later is False %}
-                        <tr>
-                            <td>{{cart_item.item.title}}</td>
-                            <td>{{cart_item.quantity}}</td>
-                            <td>$ {{cart_item.cost}}</td>
-                            <td>
-                                <input type="checkbox" name="saves" value="{{ cart_item.id }}">
-                            </td>
-                        </tr>
-                    {% endif %}
-                {% endfor %}
-                <tr align="right">
-                    <td colspan="4" align="right">
-                        <button type="submit">Save Changes</button>
-                    </td>
-                </tr>
-            </form>
-        </tbody>
-        <!-- TODO: compute and display subtotal, update it as amount changes -->
+        {% if is_empty_cart is False %}
+            <tbody>
+                <form method="POST"> {% csrf_token %}
+                    {% for cart_item in items %}
+                        {% if cart_item.save_for_later is False %}
+                            <tr>
+                                <td>{{cart_item.item.title}}</td>
+                                <td>
+                                    <input type="number" name="quantity" min="1" max="999" step="1" value="{{ cart_item.quantity }}">
+                                </td>
+                                <td>$ {{cart_item.item.price}}</td>
+                                <td>
+                                    <input type="checkbox" name="saves" value="{{ cart_item.id }}">
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="remove" value="{{ cart_item.id }}">
+                                </td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+                    <tr align="right">
+                        <td colspan="1" align="left" style="font-weight:bold">Subtotal:</td>
+                        <td colspan="4" align="right" style="font-weight:bold">$ {{subtotal}}</td>
+                    </tr>
+                    <tr align="right">
+                        <td colspan="4" align="right">
+                            <button type="submit">Save Changes</button>
+                        </td>
+                    </tr>
+                </form>
+            </tbody>
+        {% endif %}
     </table>
     {% if is_empty_cart %}
         <div align="center">
@@ -52,6 +59,20 @@
             </p>
         </div>
     {% endif %}
+
+    <!-- add book to cart by book name -->
+    <br \>
+    <br \>
+    <div align="center" style="color: steelblue">
+        <h4>Add A Book To Cart By Book Name</h4>
+    </div>
+    <form action="#" method="get">
+        <label for="bname">Book name:</label>
+        <input type="text" id="bname" name="addToCart" value="{{ book.item.title }}">
+        <input type="submit" value="Add To Cart">
+    </form>
+    <br \>
+    <br \>
 
     <!-- separate cart's table and save-for-later table -->
     <br \>
@@ -68,19 +89,30 @@
             <tr>
                 <th scope="col">Book</th>
                 <th scope="col">Quantity</th>
-                <th scope="col">Price</th>
+                <th scope="col">Price(x1)</th>
+                <th scope="col">Move To Cart?</th>
             </tr>
         </thead>
         <tbody>
-            {% for cart_item in items %}
-                {% if cart_item.save_for_later is True %}
-                    <tr>
-                        <td>{{cart_item.item.title}}</td>
-                        <td>{{cart_item.quantity}}</td>
-                        <td>$ {{cart_item.cost}}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
+            <form method="POST"> {% csrf_token %}
+                {% for cart_item in items %}
+                    {% if cart_item.save_for_later is True %}
+                        <tr>
+                            <td>{{cart_item.item.title}}</td>
+                            <td>{{cart_item.quantity}}</td>
+                            <td>$ {{cart_item.item.price}}</td>
+                            <td>
+                                <input type="checkbox" name="unsaved" value="{{ cart_item.id }}">
+                            </td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+                <tr align="right">
+                    <td colspan="4" align="right">
+                        <button type="submit">Move To Cart</button>
+                    </td>
+                </tr>
+            </form>
         </tbody>
     </table>
     {% if is_saved_empty is True %}

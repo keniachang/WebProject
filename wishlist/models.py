@@ -21,6 +21,7 @@ class bigWishlist(models.Model):
 
 class smallWishlist(models.Model):
     name = models.CharField(max_length=30, null=False, default='Wishlist')
+    num = models.IntegerField(null=False, default=1)
     list = models.ForeignKey(bigWishlist, on_delete=models.CASCADE)
 
 

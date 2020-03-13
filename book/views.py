@@ -12,4 +12,11 @@ def book_detail_view(request):
 
 
 def bookdetail_view(request):
-    return render(request, 'bookdetail.html')
+    book_id = request.get_full_path().split("=")[-1]
+    book = Book.objects.get(pk=book_id)
+    book_context = {
+        'book': book
+    }
+
+
+    return render(request, 'bookdetail.html', book_context)

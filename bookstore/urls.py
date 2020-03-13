@@ -20,6 +20,7 @@ from book.views import book_detail_view
 from cart.views import cart_view
 from comment.views import comment_view
 from wishlist.views import wishlist_view
+from book.views import bookdetail_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,5 +30,7 @@ urlpatterns = [
     path('', include('user.urls'), name='register'),
     path('', include('user.urls'), name='profile'),
     path('comment/', comment_view, name='comment'),
-    path('wishlist/', wishlist_view, name='wishlist')
+    path('wishlist/', wishlist_view, name='wishlist'),
+    path('books/bookdetail/', bookdetail_view, name='bookdetail'),
+
 ]

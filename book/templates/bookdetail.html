@@ -31,14 +31,14 @@
             <td>{{book.rating}}</td>
             <td>{{book.comments}}</td>
         </tr>
-        <tr align="right">
-            <td colspan="4" align="right">
-                <!-- button for add to cart -->
-                <form action="#" method="get">
-                    <button type="submit" class="btn btn-primary" name="addToCart" value="{{ book.id }}">Add To Cart</button>
-                </form>
-            </td>
-        </tr>
     </tbody>
 </table>
+
+<!-- button for add to cart -->
+<br \>
+<div style="background-color:#fff; border:none 1px; float:right; padding:10px;">
+    <form action="" method="get">
+        <button type="submit" class="btn btn-primary btn-sm" name="addToCart" value="{{ book.id }}">Add To Cart</button>
+    </form>
+</div>
 {% endblock %}

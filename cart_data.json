@@ -15,7 +15,7 @@
 },
 {
     "model": "cart.cartitem",
-    "pk": 5,
+    "pk": 1,
     "fields": {
         "item": 16,
         "cart": 1,
@@ -25,12 +25,22 @@
 },
 {
     "model": "cart.cartitem",
-    "pk": 6,
+    "pk": 2,
     "fields": {
         "item": 14,
         "cart": 1,
         "quantity": 1,
         "save_for_later": false
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 3,
+    "fields": {
+        "item": 3,
+        "cart": 1,
+        "quantity": 1,
+        "save_for_later": true
     }
 }
 ]

@@ -13,8 +13,8 @@
             </thead>
             <tbody>
                 <form method="POST"> {% csrf_token %}
-                    <tr>
-                        {% for book in small.wishlistitem_set.all %}
+                    {% for book in small.wishlistitem_set.all %}
+                        <tr>
                             <td>{{ book.item.title }}</td>
                             <td>
                              <input type="radio" id="remove" name="remove" value="{{book.id}}">
@@ -28,8 +28,8 @@
                              <input type="radio" id="cart" name="cart" value="{{book.id}}">
                                 <label for="cart">Move to Cart</label><br>
                             </td>
-                        {% endfor %}
-                    </tr>
+                        </tr>
+                    {% endfor %}
                     <div align="right">
                         <td align="right">
                             <button type="submit">Save</button>

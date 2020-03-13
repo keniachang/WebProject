@@ -17,7 +17,8 @@
     "model": "wishlist.smallwishlist",
     "pk": 1,
     "fields": {
-        "name": "one",
+        "name": "One",
+        "num": 1,
         "list": 2
     }
 },
@@ -25,7 +26,8 @@
     "model": "wishlist.smallwishlist",
     "pk": 2,
     "fields": {
-        "name": "two",
+        "name": "Two",
+        "num": 2,
         "list": 2
     }
 },
@@ -33,7 +35,8 @@
     "model": "wishlist.smallwishlist",
     "pk": 3,
     "fields": {
-        "name": "three",
+        "name": "Three",
+        "num": 3,
         "list": 2
     }
 },
@@ -41,7 +44,8 @@
     "model": "wishlist.smallwishlist",
     "pk": 4,
     "fields": {
-        "name": "four",
+        "name": "Four",
+        "num": 4,
         "list": 1
     }
 },
@@ -49,15 +53,15 @@
     "model": "wishlist.wishlistitem",
     "pk": 1,
     "fields": {
-        "item": 48,
-        "wishlist": 1
+        "item": 1,
+        "wishlist": 2
     }
 },
 {
     "model": "wishlist.wishlistitem",
     "pk": 2,
     "fields": {
-        "item": 43,
+        "item": 3,
         "wishlist": 2
     }
 },
@@ -65,7 +69,63 @@
     "model": "wishlist.wishlistitem",
     "pk": 3,
     "fields": {
-        "item": 52,
+        "item": 10,
+        "wishlist": 3
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 4,
+    "fields": {
+        "item": 13,
+        "wishlist": 3
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 5,
+    "fields": {
+        "item": 19,
+        "wishlist": 1
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 6,
+    "fields": {
+        "item": 28,
+        "wishlist": 1
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 7,
+    "fields": {
+        "item": 40,
+        "wishlist": 1
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 8,
+    "fields": {
+        "item": 60,
+        "wishlist": 2
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 9,
+    "fields": {
+        "item": 29,
+        "wishlist": 1
+    }
+},
+{
+    "model": "wishlist.wishlistitem",
+    "pk": 10,
+    "fields": {
+        "item": 59,
         "wishlist": 3
     }
 }

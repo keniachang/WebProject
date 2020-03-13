@@ -4,7 +4,6 @@
 
 <h1> BOOK DETAIL </h1>
 
-
 <table class="table">
     <thead>
     <tr>
@@ -17,25 +16,29 @@
         <th scope="col">Publishing</th>
         <th scope="col">Rating</th>
         <th scope="col">Comments</th>
-
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <td><img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing"></td>
+        <tr>
+            <td><img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing"></td>
 
-        <td>{{book.title}}</td>
-        <td>{{book.author}}</td>
-        <td>{{book.bio}}</td>
-        <td>{{book.description}}</td>
-        <td>{{book.genre}}</td>
-        <td>{{book.publisher}}</td>
-        <td>{{book.rating}}</td>
-        <td>{{book.comments}}</td>
-
-
-    </tr>
-
+            <td>{{book.title}}</td>
+            <td>{{book.author}}</td>
+            <td>{{book.bio}}</td>
+            <td>{{book.description}}</td>
+            <td>{{book.genre}}</td>
+            <td>{{book.publisher}}</td>
+            <td>{{book.rating}}</td>
+            <td>{{book.comments}}</td>
+        </tr>
+        <tr align="right">
+            <td colspan="4" align="right">
+                <!-- button for add to cart -->
+                <form action="#" method="get">
+                    <button type="submit" class="btn btn-primary" name="addToCart" value="{{ book.id }}">Add To Cart</button>
+                </form>
+            </td>
+        </tr>
     </tbody>
 </table>
 {% endblock %}

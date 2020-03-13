@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from .models import Book
+from cart.views import add_to_cart
+from django.http import HttpResponseRedirect
 
 
 # Create your views here.
@@ -18,5 +20,11 @@ def bookdetail_view(request):
         'book': book
     }
 
+    # button for add to cart
+    book_id = request.GET.get('addToCart')
+    if book_id:
+        redirect_url = "/books/bookdetail/?id=" + str(book_id)
+        add_to_cart(request, book_id, redirect_url)
+        return HttpResponseRedirect(redirect_url)
 
     return render(request, 'bookdetail.html', book_context)

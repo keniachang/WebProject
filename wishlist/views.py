@@ -81,9 +81,10 @@ def wishlist_view(request):
         return HttpResponseRedirect("/wishlist")
 
     # button for add to cart
-    book_id = request.GET.get('addToCart')
-    if book_id:
-        add_to_cart(request, book_id, "/wishlist")
-        return HttpResponseRedirect("/wishlist")
+    elif 'cart' in request.POST:
+        book_id = request.POST.get('cart')
+        if book_id:
+            add_to_cart(request, book_id, "/wishlist")
+            return HttpResponseRedirect("/wishlist")
 
     return render(request, "wishlist.html", wishlist_context)

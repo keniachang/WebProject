@@ -16,13 +16,11 @@ def wishlist_view(request):
 
     if bigWishlist.objects.filter(user=user).exists():
 
-        # works if testing on user with bWL object
-
         bigwishlist = bigWishlist.objects.get(user=user)
     else:
 
-        #does not work
-        bigwishlist = bigWishlist.add_wishlist(user,swishlist)
+        bigwishlist = bigWishlist(user=user)
+        bigwishlist.save()
 
 
     wishlist_context = {
@@ -86,5 +84,19 @@ def wishlist_view(request):
         if book_id:
             add_to_cart(request, book_id, "/wishlist")
             return HttpResponseRedirect("/wishlist")
+
+
+    swishlist_name = request.GET.get('createWishlist')
+    if swishlist_name:
+        wishlist_count = bigwishlist.smallwishlist_set.count()
+        wishlist_count += 1
+
+        bwl = bigWishlist.objects.all()
+        temp = bwl[0]
+
+        a = smallWishlist.objects.create(name=swishlist_name, num=wishlist_count, list=temp)
+        bigwishlist.add_wishlist(a)
+
+        return HttpResponseRedirect("/wishlist")
 
     return render(request, "wishlist.html", wishlist_context)

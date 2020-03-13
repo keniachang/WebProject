@@ -25,8 +25,11 @@
                                 <label for="move2">Move to 2nd Wishlist</label><br>
                              <input type="radio" id="move3" name="move3" value="{{book.id}}">
                                 <label for="move3">Move to 3rd Wishlist</label><br>
-                             <input type="radio" id="cart" name="cart" value="{{book.id}}">
-                                <label for="cart">Move to Cart</label><br>
+<!--                             <input type="radio" id="cart" name="cart" value="{{book.id}}">-->
+<!--                                <label for="cart">Move to Cart</label><br>-->
+                             <form action="#" method="get">
+                                <button type="submit" class="btn btn-primary btn-sm" name="addToCart" value="{{ book.item.id }}">Move To Cart</button>
+                             </form>
                             </td>
                         </tr>
                     {% endfor %}

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> BOOK DETAIL </h1>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Picture</th>
+        <th scope="col">Name</th>
+        <th scope="col">Author</th>
+        <th scope="col">Author Bio</th>
+        <th scope="col">Description</th>
+        <th scope="col">Genre</th>
+        <th scope="col">Publishing</th>
+        <th scope="col">Rating</th>
+        <th scope="col">Comments</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing"></td>
+            <td>{{book.title}}</td>
+            <td>{{book.author}}</td>
+            <td>{{book.bio}}</td>
+            <td>{{book.description}}</td>
+            <td>{{book.genre}}</td>
+            <td>{{book.publisher}}</td>
+            <td>{{book.rating}}</td>
+            <td>{{book.comments}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- button for add to cart -->
+<br \>
+<div style="background-color:#fff; border:none 1px; float:right; padding:10px;">
+    <form action="" method="get">
+        <button type="submit" class="btn btn-primary btn-sm" name="addToCart" value="{{ book.id }}">Add To Cart</button>
+    </form>
+</div>
+{% endblock %}

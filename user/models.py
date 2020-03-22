@@ -20,9 +20,9 @@ class Credit_Card(models.Model):
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    home_address = models.ManyToManyField(Address, related_name='home_address')
-    shipping_address = models.ManyToManyField(Address, related_name='shipping_address')
-    payment_info = models.ManyToManyField(Credit_Card)
+    home_address = models.ManyToManyField(Address, related_name='home_address', blank=True ,default=None)
+    shipping_address = models.ManyToManyField(Address, related_name='shipping_address', blank=True ,default=None)
+    payment_info = models.ManyToManyField(Credit_Card, blank=True, default=None)
 
     def __str__(self):
         return f'{self.user.username} Profile'

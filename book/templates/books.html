@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Book Detail </title>
-</head>
-<body>
+
 {% extends 'base.html' %}
 
 {% block content %}
@@ -13,10 +7,14 @@
         Title: {{book.title}}<br />
         <img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
         Author: {{book.author}}<br />
+<!--<a class="btn btn-primary" href="/bookdetail" role="Book Details" value="{{book.id}}">Book Details</a>-->
+    <form action="bookdetail" method="get">
+        <button type="submit" class="btn btn-primary btn-sm" name="id" value="{{ book.id }}"> Book Detail
+        </button>
+    </form>
+
     </p>
     {% endfor %}
 {% endblock %}
-</body>
-</html>
 
 

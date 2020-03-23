@@ -10,7 +10,7 @@ class Address(models.Model):
     state = models.CharField(max_length=5)
     city = models.CharField(max_length=50)
     zip_code = models.CharField(max_length = 12)
-
+    books_owned = models.CharField(max_length=150, null=True, blank=True)
 
 class Credit_Card(models.Model):
     cc_number = models.CharField(max_length=30)
@@ -23,6 +23,7 @@ class Profile(models.Model):
     home_address = models.ManyToManyField(Address, related_name='home_address', blank=True ,default=None)
     shipping_address = models.ManyToManyField(Address, related_name='shipping_address', blank=True ,default=None)
     payment_info = models.ManyToManyField(Credit_Card, blank=True, default=None)
+
 
     def __str__(self):
         return f'{self.user.username} Profile'

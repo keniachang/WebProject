@@ -20,3 +20,16 @@ def bookdetail_view(request):
 
 
     return render(request, 'bookdetail.html', book_context)
+
+
+
+
+
+def authorbook(request, author):
+    books = Book.objects.all()[:20]
+    author_context = {
+        'author' : author,
+        'books': books
+    }
+    return render(request, 'authorbook.html', author_context)
+

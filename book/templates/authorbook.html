@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1> These are all the books written by {{author}} </h1>
+<br>
+
+{% for book in books %}
+{%if book.author == author %}
+<section>
+    <h1> Titles: </h1>
+    <li>{{book.title}}</li>
+</section>
+
+{% endif %}
+
+{% endfor %}
+
+{% endblock content %}

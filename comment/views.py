@@ -2,8 +2,8 @@ from django.http import HttpResponseRedirect
 from django.http import HttpResponse
 from django.shortcuts import render
 from book.models import Book
-from .forms import CommentForm, RawCommentForm
-from django import template
+from .forms import CommentForm
+
 
 
 
@@ -28,8 +28,7 @@ def comment_view(request):
         if nickname == True:
             obj.comments = comment + " - " + user.username
         else:
-           obj.comments = comment
-        form = CommentForm()
+            obj.comments = comment
         obj.save()
         redirect_url = "/books/bookdetail/?id=" + str(comment_id)
         return HttpResponseRedirect(redirect_url)

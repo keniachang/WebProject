@@ -32,5 +32,5 @@ class PaymentInfoForm(forms.ModelForm):
 class AddressForm(forms.ModelForm):
     class Meta:
         model = Address
-        fields = ['address_line', 'country', 'state', 'city', 'zip_code', 'books_owned']
+        fields = ['address_line', 'country', 'state', 'city', 'zip_code']
 

@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from .models import Book
 from cart.views import add_to_cart
-from comment.views import comment_view
+from user.models import Profile, Address
 from django.http import HttpResponseRedirect
-
+from django.contrib.auth.models import User
 
 # Create your views here.
 def book_detail_view(request):
@@ -17,8 +17,10 @@ def book_detail_view(request):
 def bookdetail_view(request):
     book_id = request.get_full_path().split("=")[-1]
     book = Book.objects.get(pk=book_id)
+    user = User.objects.get(id=request.user.id)
     book_context = {
-        'book': book
+        'book': book,
+        'user': user
     }
 
     # button for add to cart
@@ -31,13 +33,13 @@ def bookdetail_view(request):
     # button for add comment
     comment_id = request.GET.get('addComment')
     if comment_id:
-        request.session['id'] = comment_id
-        #comment_id = str(comment_id)
-        #redirect_url = "/books/bookdetail/?id=" + str(comment_id)
-        #comment_view(request, comment_id)
-        redirect_url = "/comment"
-
-
-        return HttpResponseRedirect(redirect_url)
+        books = user.profile.books_owned
+        if books:
+            books = books.split(",")
+            book_num = str(comment_id)
+            if book_num in books:
+                request.session['id'] = comment_id
+                redirect_url = "/comment"
+                return HttpResponseRedirect(redirect_url)
 
     return render(request, 'bookdetail.html', book_context)

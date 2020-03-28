@@ -66,12 +66,13 @@
     </form>
 </div>
 
-<!-- options for add to wishlist -->
+<!-- button for add to wishlist -->
 <br \>
 <br \>
-<form action="" method="get">
-    <tr> <button type="submit" name="addwl" value="{{ book.id }}">Add To Wishlist</button> </tr>
-</form>
-<br \>
+<div style="background-color:#fff; border:none 1px; float:right; padding:10px;">
+    <form action="" method="get">
+        <button type="submit" class="btn btn-primary btn-sm" name="addwl" value="{{ book.id }}">Add To Wishlist</button>
+    </form>
+</div>
 
 {% endblock %}

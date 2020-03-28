@@ -1,30 +1,53 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
 
 
 
-class Address(models.Model):
+class HomeAddress(models.Model):
 
     address_line = models.CharField(max_length=100)
-    country = models.CharField(max_length=50)
-    state = models.CharField(max_length=5)
+    state = models.CharField(max_length=30)
     city = models.CharField(max_length=50)
-    zip_code = models.CharField(max_length = 12)
+    zip_code = models.CharField(max_length = 5)
+
+class ShippingAddress(models.Model):
+
+    address_line = models.CharField(max_length=100)
+    state = models.CharField(max_length=30)
+    city = models.CharField(max_length=50)
+    zip_code = models.CharField(max_length = 5)
+
+    def get_absolute_url(self):
+        return reverse('shipping_edit', kwargs={'pk' : self.pk}) 
+
+
 
 
 class Credit_Card(models.Model):
+    first_name = models.CharField(max_length=100, default=None)
+    last_name = models.CharField(max_length=100,default=None)
     cc_number = models.CharField(max_length=30)
     cc_expiration = models.CharField(max_length=10)
     cc_security_code = models.CharField(max_length=10)
 
+    def get_absolute_url(self):
+        return reverse('payment_edit', kwargs={'pk' : self.pk}) 
+
+
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    home_address = models.ManyToManyField(Address, related_name='home_address', blank=True ,default=None)
-    shipping_address = models.ManyToManyField(Address, related_name='shipping_address', blank=True ,default=None)
+    home_address = models.OneToOneField(HomeAddress,default=None, null=True,on_delete=models.CASCADE)
+    shipping_address = models.ManyToManyField(ShippingAddress, blank=True ,default=None)
     payment_info = models.ManyToManyField(Credit_Card, blank=True, default=None)
 
     def __str__(self):
         return f'{self.user.username} Profile'
+
+
+
+
+
 
 

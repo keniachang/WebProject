@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+    <br>
+    {% for credit_card in credit_cards %}
+        <div class="media-body">
+            <div class = "card-info">
+                <br>
+                <h2><a href="{% url 'payment_edit' credit_card.id %}">Card {{forloop.counter}}:</a></h2> 
+                <p>Card Holder: {{credit_card.first_name}} {{credit_card.last_name}}</p>
+                <p>Card Number: {{credit_card.cc_number}}</p>
+                <p>Expiration: {{credit_card.cc_expiration}}</p>
+                <p>Security Code: {{credit_card.cc_security_code}}</p>
+            </div>
+        </div>
+    {% endfor%}
+    <br>
+    <a href="{% url 'add_payment' %}">Add New Card</a>
+
+{% endblock content%}

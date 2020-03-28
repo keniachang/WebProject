@@ -13,6 +13,7 @@ def comment_view(request):
     obj = Book.objects.get(pk=comment_id)
     user = request.user
     form = CommentForm(request.POST or None, instance=obj)
+    oldcomment = obj.comments
     context = {
         'object': obj,
         'form': form,
@@ -25,16 +26,14 @@ def comment_view(request):
         obj.rating = form.cleaned_data['rating']
         nickname = form.cleaned_data['nickname']
 
+
         if nickname == True:
-            obj.comments = comment + " - " + user.username
+            obj.comments = oldcomment + "   " + comment + " - " + user.username
         else:
-            obj.comments = comment
+            obj.comments = oldcomment + "   " + comment
         obj.save()
         redirect_url = "/books/bookdetail/?id=" + str(comment_id)
         return HttpResponseRedirect(redirect_url)
-
-
-
 
     return render(request, "comment.html", context)
 

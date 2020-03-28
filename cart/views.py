@@ -6,8 +6,7 @@ from book.models import Book
 from django.shortcuts import get_object_or_404
 
 
-# TODO: change the login_url to the normal user login page
-@login_required(login_url="/admin/")
+@login_required(login_url="/login/")
 def cart_view(request):
     user = request.user
     create_cart = not (has_cart(user))
@@ -69,23 +68,22 @@ def cart_view(request):
         return HttpResponseRedirect("/cart")
 
     # Add book to cart by book name
-    book_name = request.GET.get('addToCart')
-    if book_name:
-        book = get_object_or_404(Book, title=book_name)
-        cart_item = cart.cartitem_set.filter(item=book)
-        if cart_item:
-            cart_item = cart_item[0]
-            cart_item.quantity += 1
-            cart_item.save(update_fields=['quantity'])
-        else:
-            CartItem.objects.create(item=book, cart=cart)
-        return HttpResponseRedirect("/cart")
+    # book_name = request.GET.get('addToCart')
+    # if book_name:
+    #     book = get_object_or_404(Book, title=book_name)
+    #     cart_item = cart.cartitem_set.filter(item=book)
+    #     if cart_item:
+    #         cart_item = cart_item[0]
+    #         cart_item.quantity += 1
+    #         cart_item.save(update_fields=['quantity'])
+    #     else:
+    #         CartItem.objects.create(item=book, cart=cart)
+    #     return HttpResponseRedirect("/cart")
 
     return render(request, "cart.html", items_context)
 
 
-# TODO: change the login_url to the normal user login page
-@login_required(login_url="/admin/")
+@login_required(login_url="/login/")
 def add_to_cart(request, book_id, current_page="/cart"):
     user = request.user
     create_cart = not (has_cart(user))

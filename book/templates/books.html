@@ -1,17 +1,110 @@
-
 {% extends 'base.html' %}
 
 {% block content %}
-    {% for book in books %}
-    <p>
-        Title: {{book.title}}<br />
-        <img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
-        Author: {{book.author}}<br />
-    <form action="bookdetail" method="get">
-        <button type="submit" class="btn btn-primary btn-sm" name="id" value="{{ book.id }}"> Book Detail
-        </button>
-    </form>
+<div align="center" style="color: steelblue">
+    <h1>GSix Bookstore</h1>
+</div>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in books_rows %}
+            <tr>
+                <td>
+                    <p>
+                        <img src="{{row.0.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
+                        {% if row.0.title|length > 20 %}
+                            {{row.0.title|truncatechars:21}}
+                        {% else %}
+                            {{row.0.title}}
+                        {% endif %}
+                        <br />
+                        Author: {{row.0.author}}<br />
+                        <form action="bookdetail" method="get">
+                            <button type="submit" class="btn btn-primary btn-sm" name="id" value="{{ row.0.id }}"> Book Detail</button>
+                        </form>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <img src="{{row.1.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
+                        {% if row.1.title|length > 20 %}
+                            {{row.1.title|truncatechars:21}}
+                        {% else %}
+                            {{row.1.title}}
+                        {% endif %}
+                        <br />
+                        Author: {{row.1.author}}<br />
+                        <form action="bookdetail" method="get">
+                            <button type="submit" class="btn btn-primary btn-sm" name="id" value="{{ row.1.id }}"> Book Detail</button>
+                        </form>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <img src="{{row.2.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
+                        {% if row.2.title|length > 20 %}
+                            {{row.2.title|truncatechars:21}}
+                        {% else %}
+                            {{row.2.title}}
+                        {% endif %}
+                        <br />
+                        Author: {{row.2.author}}<br />
+                        <form action="bookdetail" method="get">
+                            <button type="submit" class="btn btn-primary btn-sm" name="id" value="{{ row.2.id }}"> Book Detail</button>
+                        </form>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <img src="{{row.3.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
+                        {% if row.3.title|length > 20 %}
+                            {{row.3.title|truncatechars:21}}
+                        {% else %}
+                            {{row.3.title}}
+                        {% endif %}
+                        <br />
+                        Author: {{row.3.author}}<br />
+                        <form action="bookdetail" method="get">
+                            <button type="submit" class="btn btn-primary btn-sm" name="id" value="{{ row.3.id }}"> Book Detail</button>
+                        </form>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <img src="{{row.4.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />
+                        {% if row.4.title|length > 20 %}
+                            {{row.4.title|truncatechars:21}}
+                        {% else %}
+                            {{row.4.title}}
+                        {% endif %}
+                        <br />
+                        Author: {{row.4.author}}<br />
+                        <form action="bookdetail" method="get">
+                            <button type="submit" class="btn btn-primary btn-sm" name="id" value="{{ row.4.id }}"> Book Detail</button>
+                        </form>
+                    </p>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
 
-    </p>
-    {% endfor %}
+<!--    {% for book in books %}-->
+<!--        <p>-->
+<!--            Title: {{book.title}}<br />-->
+<!--            <img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing"><br />-->
+<!--            Author: {{book.author}}<br />-->
+<!--            <form action="bookdetail" method="get">-->
+<!--                <button type="submit" class="btn btn-primary btn-sm" name="id" value="{{ book.id }}"> Book Detail</button>-->
+<!--            </form>-->
+<!--        </p>-->
+<!--    {% endfor %}-->
 {% endblock %}

@@ -8,10 +8,30 @@ from wishlist.views import wishlist_view
 
 # Create your views here.
 def book_detail_view(request):
-    books = Book.objects.all()[:20]
+    # books = Book.objects.all()[:20]
+    # books_context = {
+    #     'books': books
+    # }
+
+    books = Book.objects.all()
+    books_per_row = 5
+    books_rows = [[books[0]]]
+    i = 0
+    for book in books:
+        if i == 0:
+            i += 1
+            continue
+        elif i % books_per_row != 0:
+            row = i // books_per_row
+            books_rows[row].append(book)
+            i += 1
+        else:
+            books_rows.append([book])
+            i += 1
     books_context = {
-        'books': books
+        'books_rows': books_rows
     }
+
     return render(request, "books.html", books_context)
 
 

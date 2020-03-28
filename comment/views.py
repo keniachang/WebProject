@@ -27,10 +27,16 @@ def comment_view(request):
         nickname = form.cleaned_data['nickname']
 
 
-        if nickname == True:
-            obj.comments = oldcomment + "   " + comment + " - " + user.username
+        if nickname:
+            if oldcomment:
+                obj.comments = oldcomment + "   " + comment + " - " + user.username
+            else:
+                obj.comments = comment + " - " + user.username
         else:
-            obj.comments = oldcomment + "   " + comment
+            if oldcomment:
+                obj.comments = oldcomment + "   " + comment
+            else:
+                obj.comments = comment
         obj.save()
         redirect_url = "/books/bookdetail/?id=" + str(comment_id)
         return HttpResponseRedirect(redirect_url)

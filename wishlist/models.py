@@ -14,9 +14,11 @@ class bigWishlist(models.Model):
 
         if self.smallwishlist_set.count() >= 3:
 
-            raise Exception("Too many wishlists.")
+            swishlist.delete()
 
-        self.smallwishlist_set.add(swishlist)
+        else:
+
+            self.smallwishlist_set.add(swishlist)
 
 
 class smallWishlist(models.Model):

@@ -52,6 +52,7 @@
     <br \>
     <br \>
     <br \>
+    {% if bigwishlist.smallwishlist_set.count > 0 %}
     <div align>
         <h4>Rename First Wishlist</h4>
     </div>
@@ -60,8 +61,10 @@
         <input type="text" id="rename1" name="rename1">
         <input type="submit" value="Rename Wishlist">
     </form>
+    {% endif %}
     <br \>
     <br \>
+    {% if bigwishlist.smallwishlist_set.count > 1 %}
     <div align>
         <h4>Rename Second Wishlist</h4>
     </div>
@@ -70,8 +73,10 @@
         <input type="text" id="rename2" name="rename2">
         <input type="submit" value="Rename Wishlist">
     </form>
+    {% endif %}
     <br \>
     <br \>
+    {% if bigwishlist.smallwishlist_set.count > 2 %}
     <div align>
         <h4>Rename Third Wishlist</h4>
     </div>
@@ -80,5 +85,6 @@
         <input type="text" id="rename3" name="rename3">
         <input type="submit" value="Rename Wishlist">
     </form>
+    {% endif %}
     <br \>
 {% endblock %}

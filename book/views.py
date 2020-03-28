@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from .models import Book
 from cart.views import add_to_cart
-from user.models import Profile, Address
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
 

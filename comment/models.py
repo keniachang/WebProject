@@ -4,6 +4,9 @@ from book.models import Book
 
 
 #class Comment(models.Model):
-#    book_comment = models.ForeignKey(Book, on_delete=models.CASCADE)
+#    comments = models.TextField(null=True, blank=True)
 
+
+#class Rating(models.Model):
+    #rating = models.DecimalField(max_digits=2, decimal_places=1, null=True, blank=True)
 # Create your models here.

@@ -5,6 +5,7 @@ from .models import bigWishlist
 from .models import smallWishlist
 from .models import WishlistItem
 from cart.views import add_to_cart
+from book.models import Book
 
 # Create your views here.
 
@@ -26,7 +27,6 @@ def wishlist_view(request):
     wishlist_context = {
         'bigwishlist': bigwishlist
     }
-
 
     if 'remove' in request.POST:
         wishlist_book = request.POST.get('remove')
@@ -96,6 +96,68 @@ def wishlist_view(request):
 
         a = smallWishlist.objects.create(name=swishlist_name, num=wishlist_count, list=temp)
         bigwishlist.add_wishlist(a)
+
+        return HttpResponseRedirect("/wishlist")
+
+    if 'addwl1' in request.GET:
+        print("A")
+        book_id = request.GET.get('addwl1')
+        print(book_id)
+
+        sWL = smallWishlist.objects.get(num=1)
+        book = Book.objects.get(pk=book_id)
+        WishlistItem.objects.create(item=book, wishlist=sWL)
+
+
+    elif 'addwl2' in request.GET:
+        print("B")
+        book_id = request.GET.get('addwl2')
+        print(book_id)
+
+        sWL = smallWishlist.objects.get(num=2)
+        book = Book.objects.get(pk=book_id)
+        WishlistItem.objects.create(item=book, wishlist=sWL)
+
+
+    elif 'addwl3' in request.GET:
+        print("C")
+        book_id = request.GET.get('addwl3')
+        print(book_id)
+
+        sWL = smallWishlist.objects.get(num=3)
+        book = Book.objects.get(pk=book_id)
+        WishlistItem.objects.create(item=book, wishlist=sWL)
+
+
+    new_wishlistname = request.GET.get('rename1')
+    if new_wishlistname:
+        print(new_wishlistname)
+
+        sWL = smallWishlist.objects.get(num=1)
+        sWL.name = new_wishlistname
+        sWL.save()
+
+        return HttpResponseRedirect("/wishlist")
+
+
+    new_wishlistname = request.GET.get('rename2')
+    if new_wishlistname:
+        print(new_wishlistname)
+
+        sWL = smallWishlist.objects.get(num=2)
+        sWL.name = new_wishlistname
+        sWL.save()
+
+        return HttpResponseRedirect("/wishlist")
+
+
+    new_wishlistname = request.GET.get('rename3')
+    if new_wishlistname:
+        print(new_wishlistname)
+
+        sWL = smallWishlist.objects.get(num=3)
+        sWL.name = new_wishlistname
+        sWL.save()
 
         return HttpResponseRedirect("/wishlist")
 

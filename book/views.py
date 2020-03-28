@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import Book
 from cart.views import add_to_cart
 from django.http import HttpResponseRedirect
+from wishlist.views import wishlist_view
 
 
 # Create your views here.
@@ -26,5 +27,21 @@ def bookdetail_view(request):
         redirect_url = "/books/bookdetail/?id=" + str(book_id)
         add_to_cart(request, book_id, redirect_url)
         return HttpResponseRedirect(redirect_url)
+
+
+    book_id = request.GET.get('addwl1')
+    if book_id:
+        wishlist_view(request)
+        return HttpResponseRedirect("/books/bookdetail/?id=" + str(book_id))
+
+    book_id = request.GET.get('addwl2')
+    if book_id:
+        wishlist_view(request)
+        return HttpResponseRedirect("/books/bookdetail/?id=" + str(book_id))
+
+    book_id = request.GET.get('addwl3')
+    if book_id:
+        wishlist_view(request)
+        return HttpResponseRedirect("/books/bookdetail/?id=" + str(book_id))
 
     return render(request, 'bookdetail.html', book_context)

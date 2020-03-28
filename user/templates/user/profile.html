@@ -12,12 +12,21 @@
         <fieldset class="form-group">
             <legend class="border-bottom mb-4">Profile Info</legend>
             {{ user_form|crispy}}
+
+            <legend class="border-bottom mb-4">Home Address Info</legend>
+            {{ home_form|crispy}}
+
         </fieldset>
 
         <div class="form-group">
             <button class="btn btn-outline-info" type="submit">Update</button>
         </div>
     </form>
+    <br>
+    <a href="{% url 'payment_home' %}">View/Edit Payment Options</a><br>
+    <a href="{% url 'shipping_home' %}">View/Edit Shipping Options</a>
+
+
 
 
 {% endblock content%}

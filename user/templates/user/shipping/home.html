@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    <br>
+    {% for shipping_address in shipping_addresses %}
+        <div class="media-body">
+            <div class = "card-info">
+                <br>
+                <h2><a href="{% url 'shipping_edit' shipping_address.id %}">Shipping Address {{forloop.counter}}:</a></h2> 
+                <p>Address Line: {{shipping_address.address_line}} </p>
+                <p>State: {{shipping_address.state}}</p>
+                <p>City: {{shipping_address.city}}</p>
+                <p>Zip Code: {{shipping_address.zip_code}}</p>
+            </div>
+        </div>
+    {% endfor%}
+    <br>
+    <a href="{% url 'add_shipping' %}">Add New Shipping Address</a>
+{% endblock content%}

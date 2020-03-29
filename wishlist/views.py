@@ -11,7 +11,7 @@ from book.models import Book
 # Create your views here.
 
 
-@login_required(login_url='/admin/')
+@login_required(login_url='/login/')
 def wishlist_view(request):
     user = request.user
 
@@ -95,11 +95,11 @@ def wishlist_view(request):
 
         return HttpResponseRedirect("/wishlist")
 
-    if 'addwl' in request.GET:
+    if 'addwl1' in request.GET:
         if bigwishlist.smallwishlist_set.count() > 0:
 
             sWL = smallWishlist.objects.get(num=1)
-            book_id = request.GET.get('addwl')
+            book_id = request.GET.get('addwl1')
 
             book = Book.objects.get(pk=book_id)
             WishlistItem.objects.create(item=book, wishlist=sWL)
@@ -111,11 +111,35 @@ def wishlist_view(request):
             a = smallWishlist.objects.create(name="1", num=1, list=temp)
             bigwishlist.add_wishlist(a)
 
-            book_id = request.GET.get('addwl')
+            book_id = request.GET.get('addwl1')
 
             book = Book.objects.get(pk=book_id)
 
             WishlistItem.objects.create(item=book, wishlist=a)
+
+    if 'addwl2' in request.GET:
+        if bigwishlist.smallwishlist_set.count() > 1:
+
+            sWL = smallWishlist.objects.get(num=2)
+            book_id = request.GET.get('addwl2')
+
+            book = Book.objects.get(pk=book_id)
+            WishlistItem.objects.create(item=book, wishlist=sWL)
+
+        else:
+            return HttpResponseRedirect("/wishlist")
+
+    if 'addwl3' in request.GET:
+        if bigwishlist.smallwishlist_set.count() > 2:
+
+            sWL = smallWishlist.objects.get(num=3)
+            book_id = request.GET.get('addwl3')
+
+            book = Book.objects.get(pk=book_id)
+            WishlistItem.objects.create(item=book, wishlist=sWL)
+
+        else:
+            return HttpResponseRedirect("/wishlist")
 
 
     new_wishlistname = request.GET.get('rename1')

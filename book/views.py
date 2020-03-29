@@ -63,7 +63,17 @@ def bookdetail_view(request):
                 return HttpResponseRedirect(redirect_url)
 
     # options for add to wishlist
-    book_id = request.GET.get('addwl')
+    book_id = request.GET.get('addwl1')
+    if book_id:
+        wishlist_view(request)
+        return HttpResponseRedirect("/books/bookdetail/?id=" + str(book_id))
+
+    book_id = request.GET.get('addwl2')
+    if book_id:
+        wishlist_view(request)
+        return HttpResponseRedirect("/books/bookdetail/?id=" + str(book_id))
+
+    book_id = request.GET.get('addwl3')
     if book_id:
         wishlist_view(request)
         return HttpResponseRedirect("/books/bookdetail/?id=" + str(book_id))

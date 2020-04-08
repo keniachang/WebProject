@@ -17,6 +17,7 @@ class CommentForm(forms.ModelForm):
         widget=forms.TextInput(attrs={'size': '3'}),
         decimal_places=1)
     nickname = forms.BooleanField(required=False, label='Leave Nickname?')
+    anonymous = forms.BooleanField(required=False, label='Stay Anonymous?')
 
     class Meta:
         model = Book

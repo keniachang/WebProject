@@ -25,18 +25,24 @@ def comment_view(request):
         comment = form.cleaned_data['comments']
         obj.rating = form.cleaned_data['rating']
         nickname = form.cleaned_data['nickname']
+        anonymous = form.cleaned_data['anonymous']
 
-
-        if nickname:
-            if oldcomment:
-                obj.comments = oldcomment + "   " + comment + " - " + user.username
-            else:
-                obj.comments = comment + " - " + user.username
-        else:
+        if anonymous:
             if oldcomment:
                 obj.comments = oldcomment + "   " + comment
             else:
                 obj.comments = comment
+        else:
+            if nickname:
+                if oldcomment:
+                    obj.comments = oldcomment + "   " + comment + " - " + user.username
+                else:
+                    obj.comments = comment + " - " + user.username
+            else:
+                if oldcomment:
+                    obj.comments = oldcomment + "   " + comment + " - " + user.first_name
+                else:
+                    obj.comments = comment + " - " + user.first_name
         obj.save()
         redirect_url = "/books/bookdetail/?id=" + str(comment_id)
         return HttpResponseRedirect(redirect_url)

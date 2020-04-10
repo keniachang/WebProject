@@ -4,13 +4,16 @@
 <form method="POST">
     {% csrf_token %}
     <fieldset class="form-group">
-        <legend class="border-bottom mb-4">Edit Payment Info</legend>
-        {{ form|crispy}}
+        <fieldset class="col-lg-8">
+            <legend class="border-bottom mb-4">Edit Payment Info</legend>
+            {{ form|crispy}}
+        </fieldset>
     </fieldset>
 
     <div class="form-group">
         <button class="btn btn-outline-info" type="submit">Update</button>
         <a class="btn btn-outline-danger" href="{% url 'payment_delete' object.id %}">Delete</a>
+        <a class="btn btn-outline-secondary" href="{%url 'payment_home' %}">Cancel</a>
     </div>
 </form>
 

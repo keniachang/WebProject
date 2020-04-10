@@ -10,12 +10,15 @@
 <form method="POST">
     {% csrf_token %}
     <fieldset class="form-group">
-        <legend class="border-bottom mb-4">Payment Info</legend>
-        {{ pay_form|crispy}}
+        <fieldset class="col-lg-8">
+            <legend class="border-bottom mb-4">Payment Info</legend>
+            {{ pay_form|crispy}}
+        </fieldset>
     </fieldset>
 
     <div class="form-group">
         <button class="btn btn-outline-info" type="submit">Add</button>
+        <a class="btn btn-outline-secondary" href="{%url 'profile' %}">Cancel</a>
     </div>
 </form>
 

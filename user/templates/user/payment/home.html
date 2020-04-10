@@ -1,19 +1,42 @@
 {% extends 'base.html' %}
 {% block content %}
-    <br>
+
+    
+
+    <style>
+        th, td {
+            padding: 10px;
+            border: 2px solid #666;
+        }
+    </style>
+
+
+    <h2>{{profile.user.username}}'s Payment Info</h2>
+
+
+    <table style="width:92%; margin:80px auto; border-collapse:collapse;">
     {% for credit_card in credit_cards %}
-        <div class="media-body">
-            <div class = "card-info">
-                <br>
-                <h2><a href="{% url 'payment_edit' credit_card.id %}">Card {{forloop.counter}}:</a></h2> 
-                <p>Card Holder: {{credit_card.first_name}} {{credit_card.last_name}}</p>
-                <p>Card Number: {{credit_card.cc_number}}</p>
-                <p>Expiration: {{credit_card.cc_expiration}}</p>
-                <p>Security Code: {{credit_card.cc_security_code}}</p>
-            </div>
-        </div>
+      
+        <tr>
+        <th><h3><a href="{% url 'payment_edit' credit_card.id %}">Card {{forloop.counter}}:</a></h3></th>
+        <th>Card Number</th>
+        <th>Expiration</th>
+        <th>Security Code</th>
+        </tr>
+
+        <tr>
+        <td>{{credit_card.first_name}} {{credit_card.last_name}}</td>
+        <td>{{credit_card.cc_number}}</td>
+        <td>{{credit_card.cc_expiration}}</td>
+        <td>{{credit_card.cc_security_code}}</td>
+        </tr>
+            
     {% endfor%}
-    <br>
-    <a href="{% url 'add_payment' %}">Add New Card</a>
+    </table>
+
+    <a class="btn btn-outline-info" href="{%url 'add_payment' %}">Add New Card</a>
+    <a class="btn btn-outline-secondary" href="{%url 'profile' %}">Back To Profile</a>
+
+
 
 {% endblock content%}

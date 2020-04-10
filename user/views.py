@@ -70,7 +70,9 @@ def payment_list(request):
     
     
     context = {
-        'credit_cards' : credit_cards
+        'credit_cards' : credit_cards,
+        'profile': logged_in_profile
+
     }
 
     return render(request,'user/payment/home.html', context)
@@ -82,7 +84,8 @@ def shipping_list(request):
     
     
     context = {
-        'shipping_addresses' : shipping_addresses
+        'shipping_addresses' : shipping_addresses,
+        'profile': logged_in_profile
     }
 
     return render(request,'user/shipping/home.html', context)

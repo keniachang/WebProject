@@ -5,8 +5,10 @@
         <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">
+                <fieldset class="col-lg-8">
                 <legend class="border-bottom mb-4">Login</legend>
                 {{ form|crispy}}
+                </fieldset>
             </fieldset>
 
             <div class="form-group">

@@ -2,6 +2,7 @@ from django.http import HttpResponseRedirect
 from django.http import HttpResponse
 from django.shortcuts import render
 from book.models import Book
+from .models import Comment
 from .forms import CommentForm
 
 
@@ -11,9 +12,9 @@ from .forms import CommentForm
 def comment_view(request):
     comment_id = request.session['id']
     obj = Book.objects.get(pk=comment_id)
+    obj2 = Comment()
     user = request.user
     form = CommentForm(request.POST or None, instance=obj)
-    oldcomment = obj.comments
     context = {
         'object': obj,
         'form': form,
@@ -22,28 +23,21 @@ def comment_view(request):
 
 
     if form.is_valid():
+
         comment = form.cleaned_data['comments']
-        obj.rating = form.cleaned_data['rating']
+        obj2.rating = form.cleaned_data['rating']
         nickname = form.cleaned_data['nickname']
         anonymous = form.cleaned_data['anonymous']
+        obj2.title = obj.title
 
         if anonymous:
-            if oldcomment:
-                obj.comments = oldcomment + "   " + comment
-            else:
-                obj.comments = comment
+            obj2.comments = comment
         else:
             if nickname:
-                if oldcomment:
-                    obj.comments = oldcomment + "   " + comment + " - " + user.username
-                else:
-                    obj.comments = comment + " - " + user.username
+                obj2.comments = comment + " - " + user.username
             else:
-                if oldcomment:
-                    obj.comments = oldcomment + "   " + comment + " - " + user.first_name
-                else:
-                    obj.comments = comment + " - " + user.first_name
-        obj.save()
+                obj2.comments = comment + " - " + user.first_name
+        obj2.save()
         redirect_url = "/books/bookdetail/?id=" + str(comment_id)
         return HttpResponseRedirect(redirect_url)
 

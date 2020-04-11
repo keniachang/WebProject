@@ -1,5 +1,5 @@
 from django import forms
-from book.models import Book
+from .models import Comment
 
 
 class CommentForm(forms.ModelForm):
@@ -20,7 +20,7 @@ class CommentForm(forms.ModelForm):
     anonymous = forms.BooleanField(required=False, label='Stay Anonymous?')
 
     class Meta:
-        model = Book
+        model = Comment
         fields = [
             'comments',
             'rating'

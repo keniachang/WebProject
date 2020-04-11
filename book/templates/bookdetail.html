@@ -1,56 +1,71 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1> BOOK DETAILS </h1>
+<section>
+    <h3> Title: {{book.title}}</h3>
+</section>
+
+
 <section>
 <a href = "{{book.cover}}">
     <img src="{{book.cover}}" height="100px" width="100px" alt="Book cover is not showing">
 </a>
 </section>
-    &nbsp;
-<section>
-    <h1>Title:</h1>
-    <p>{{book.title}}</p>
-</section>
+
+<br \>
 
 <section>
-    <h1> Author: </h1>
-    <p> <a href= "{% url 'authorbook' book.author %}"> {{book.author}} </a> </p>
+    <h4> Author:</h4>
+    <a href= "{% url 'authorbook' book.author %}"> {{book.author}} </a>
 </section>
 
-<section>
-    <h1> Bio: </h1>
-    <p>  {{book.bio}} </p>
-</section>
+<br \>
+
+ <section>
+     <h4> Bio: </h4>
+    <p> {{book.bio}} </p>
+ </section>
+
+<br \>
 
 <section>
-    <h1> Book Description:  </h1>
+    <h4> Book Description:  </h4>
     <p> {{book.description}}</p>
 </section>
 
+<br \>
+
 <section>
-    <h1> Genre: </h1>
+    <h4> Genre: </h4>
     <p> {{book.genre}} </p>
 </section>
 
+<br \>
+
 <section>
-    <h1> Publishing info : </h1>
-    <p> Publisher:  {{book.publisher}} </p>
+    <h4> Publishing info : </h4>
+    <p> Publisher: {{book.publisher}} </p>
     <p> Release Date:  {{book.release_date}} </p>
 </section>
 
+<br \>
+
 <section>
-    <h1> Rating: </h1>
+    <h4> Rating: </h4>
     <p> {{book.rating}}</p>
 </section>
 
+<br \>
+
 <section>
-    <h1> Comments: </h1>
+    <h4> Comments: </h4>
     <p> {{book.comments}} </p>
 </section>
 
 <!-- button for add to cart -->
 <br \>
+<br \>
+
 <div style="background-color:#fff; border:none 1px; float:right; padding:10px;">
     <form action="" method="get">
         <button type="submit" class="btn btn-primary btn-sm" name="addToCart" value="{{ book.id }}">Add To Cart</button>
@@ -58,8 +73,8 @@
 </div>
 
 <!-- button for add comment -->
-<br \>
-<br \>
+
+
 <div style="background-color:#fff; border:none 1px; float:right; padding:10px;">
     <form action="" method="get">
         <button type="submit" class="btn btn-primary btn-sm" name="addComment" value="{{ book.id }}">Add Comment</button>
@@ -67,8 +82,7 @@
 </div>
 
 <!-- button for add to wishlist -->
-<br \>
-<br \>
+
 <div style="background-color:#fff; border:none 1px; float:right; padding:10px;">
     <form action="" method="get">
         <button type="submit" class="btn btn-primary btn-sm" name="addwl1" value="{{ book.id }}">Add To First Wishlist</button>
@@ -76,5 +90,4 @@
         <button type="submit" class="btn btn-primary btn-sm" name="addwl3" value="{{ book.id }}">Add To Third Wishlist</button>
     </form>
 </div>
-
 {% endblock %}

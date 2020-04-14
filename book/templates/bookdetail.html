@@ -15,6 +15,13 @@
 <br \>
 
 <section>
+
+    <h4> Price: </h4>
+    <p> ${{book.price}}</p>
+</section>
+<br \>
+
+<section>
     <h4> Author:</h4>
     <a href= "{% url 'authorbook' book.author %}"> {{book.author}} </a>
 </section>
@@ -51,15 +58,17 @@
 <br \>
 
 <section>
-    <h4> Rating: </h4>
-    <p> {{book.rating}}</p>
+ <h4> Comment & Rating: </h4>
+   {% for comment in comments %}
+<section>
+  <p>{{comment.comments}} / Rating: {{comment.rating}} </p>
 </section>
 
-<br \>
 
-<section>
-    <h4> Comments: </h4>
-    <p> {{book.comments}} </p>
+{% endfor %}
+
+
+
 </section>
 
 <!-- button for add to cart -->

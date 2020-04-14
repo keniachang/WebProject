@@ -1,22 +1,25 @@
+from django.db.models import Avg
 from django.shortcuts import render
 from .models import Book
 from cart.views import add_to_cart
 from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
 from wishlist.views import wishlist_view
-
-
+from comment.models import Comment
 # Create your views here.
+
+
+
 def book_detail_view(request):
     # books = Book.objects.all()[:20]
     # books_context = {
     #     'books': books
     # }
-
     books = Book.objects.all()
     books_per_row = 5
     books_rows = [[books[0]]]
     i = 0
+
     for book in books:
         if i == 0:
             i += 1
@@ -29,7 +32,8 @@ def book_detail_view(request):
             books_rows.append([book])
             i += 1
     books_context = {
-        'books_rows': books_rows
+        'books_rows': books_rows,
+
     }
 
     return render(request, "books.html", books_context)
@@ -39,8 +43,11 @@ def bookdetail_view(request):
     book_id = request.get_full_path().split("=")[-1]
     book = Book.objects.get(pk=book_id)
     user = User.objects.get(id=request.user.id)
+    comments = Comment.objects.filter(title=book.title)
+
     book_context = {
-        'book': book
+        'book': book,
+        'comments': comments
     }
 
     # button for add to cart
@@ -88,3 +95,4 @@ def authorbook_view(request, author):
         'books': books
     }
     return render(request, 'authorbook.html', author_context)
+
